@@ -102,3 +102,15 @@ runs/
 # ========================
 paper.pdf
 **/Pearl/
+
+# Upload helper scripts & logs (local only)
+upload_*.py
+upload_*.txt
+upload_*.log
+*_files_list.txt
+*_files.txt
+gen_readme_links.py
+hf_download_links.md
+large_files_list.txt
+remaining_files.txt
+uploaded_files.txt
