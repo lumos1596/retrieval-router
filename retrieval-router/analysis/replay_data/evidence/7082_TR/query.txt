@@ -1,0 +1,5 @@
+qid=7082 dataset=wiki-ss arm=TR group=D
+replay dense nDCG@5=0.5 (off 0.5)
+replay rerank nDCG@5=1.0 (off 1.0)
+
+who plays carrie on days of our lives

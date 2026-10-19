@@ -1,0 +1,16 @@
+{
+  "hf_repo": "emrekuruu/FinReport",
+  "n_rows": 2928,
+  "n_unique_pages": 2687,
+  "n_queries": 853,
+  "duplicate_query_filename_rows": 0,
+  "annotation_only_none_rows": 0,
+  "real_conflicting_image_per_filename": 0,
+  "real_conflicting_text_per_filename": 0,
+  "max_pages_per_query": 1,
+  "multi_page_queries": 0,
+  "n_case_queries": 1,
+  "case_queries_missing_in_hf": [],
+  "img_none_pages": 0,
+  "txt_none_pages": 0
+}

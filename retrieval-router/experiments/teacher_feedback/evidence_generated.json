@@ -1,0 +1,7168 @@
+[
+  {
+    "query": "What percentage of Entergy's short-term borrowing allowance was utilized in 2017, given that the company had obtained authorization for short-term borrowings not to exceed $200 million?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "ETR/2017/page_441.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.0,
+    "delta": -1.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "ETR/2017/page_325.pdf",
+        "score": 0.3658220171928406,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2017/page_401.pdf",
+        "score": 0.36286526918411255,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2016/page_403.pdf",
+        "score": 0.3604389727115631,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2017/page_422.pdf",
+        "score": 0.3420860171318054,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2011/page_281.pdf",
+        "score": 0.33458009362220764,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "ETR/2017/page_143.pdf",
+        "score": 0.6235368251800537,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2017/page_35.pdf",
+        "score": 0.6152015924453735,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2009/page_24.pdf",
+        "score": 0.6114746928215027,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2015/page_131.pdf",
+        "score": 0.609065055847168,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2016/page_144.pdf",
+        "score": 0.6053553819656372,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "What percentage of the total minimum lease payments for Union Pacific Corporation as of December 31, 2012, are attributable to capital leases?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2012/page_79.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.40577128529548645,
+        "gt": false
+      },
+      {
+        "filename": "DISH/2011/page_130.pdf",
+        "score": 0.39525678753852844,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_79.pdf",
+        "score": 0.39497560262680054,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2011/page_80.pdf",
+        "score": 0.3871321976184845,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2009/page_138.pdf",
+        "score": 0.38598424196243286,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.6822822690010071,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2011/page_80.pdf",
+        "score": 0.6807841062545776,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2010/page_79.pdf",
+        "score": 0.6791040897369385,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2006/page_62.pdf",
+        "score": 0.6568503975868225,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_79.pdf",
+        "score": 0.645794153213501,
+        "gt": true
+      }
+    ],
+    "TD_dense_ndcg5": 0.38685280723454163
+  },
+  {
+    "query": "In the 2008 Citigroup financial report, what was the tax rate associated with the $8.7 billion after-tax goodwill impairment charge recorded in the fourth quarter of that year?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "C/2008/page_173.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "IP/2009/page_78.pdf",
+        "score": 0.3347231149673462,
+        "gt": false
+      },
+      {
+        "filename": "IPG/2008/page_68.pdf",
+        "score": 0.33456236124038696,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_173.pdf",
+        "score": 0.32274895906448364,
+        "gt": true
+      },
+      {
+        "filename": "HII/2015/page_121.pdf",
+        "score": 0.3147999346256256,
+        "gt": false
+      },
+      {
+        "filename": "C/2009/page_197.pdf",
+        "score": 0.30942583084106445,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR",
+      "TR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "C/2008/page_159.pdf",
+        "score": 0.6091724038124084,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_173.pdf",
+        "score": 0.6067862510681152,
+        "gt": true
+      },
+      {
+        "filename": "C/2009/page_197.pdf",
+        "score": 0.5983349680900574,
+        "gt": false
+      },
+      {
+        "filename": "C/2010/page_226.pdf",
+        "score": 0.5787056088447571,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_207.pdf",
+        "score": 0.5670008063316345,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575,
+    "MR_rerank_top5": [
+      {
+        "filename": "C/2008/page_173.pdf",
+        "score": 31.40884780883789,
+        "gt": true
+      },
+      {
+        "filename": "IPG/2008/page_68.pdf",
+        "score": 30.11278533935547,
+        "gt": false
+      },
+      {
+        "filename": "IP/2009/page_78.pdf",
+        "score": 28.167617797851562,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 1.0,
+    "TR_rerank_top5": [
+      {
+        "filename": "C/2009/page_197.pdf",
+        "score": 38.533851623535156,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_173.pdf",
+        "score": 38.50396728515625,
+        "gt": true
+      },
+      {
+        "filename": "C/2010/page_226.pdf",
+        "score": 38.06157302856445,
+        "gt": false
+      }
+    ],
+    "TR_rerank_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "As of December 31, 2009, what was the difference between the carrying value and the fair value of LKQ Corporation's term loans, which are detailed in Note 6 of the Long-term Obligations section?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "LKQ/2009/page_66.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "LKQ/2010/page_72.pdf",
+        "score": 0.386363685131073,
+        "gt": false
+      },
+      {
+        "filename": "C/2009/page_248.pdf",
+        "score": 0.37430548667907715,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2007/page_114.pdf",
+        "score": 0.373281329870224,
+        "gt": false
+      },
+      {
+        "filename": "C/2009/page_243.pdf",
+        "score": 0.37026000022888184,
+        "gt": false
+      },
+      {
+        "filename": "C/2010/page_272.pdf",
+        "score": 0.3600537180900574,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "GS/2016/page_161.pdf",
+        "score": 0.6234171390533447,
+        "gt": false
+      },
+      {
+        "filename": "MMM/2012/page_105.pdf",
+        "score": 0.6105064153671265,
+        "gt": false
+      },
+      {
+        "filename": "BLK/2013/page_124.pdf",
+        "score": 0.6048363447189331,
+        "gt": false
+      },
+      {
+        "filename": "UA/2011/page_66.pdf",
+        "score": 0.6030473709106445,
+        "gt": false
+      },
+      {
+        "filename": "C/2010/page_272.pdf",
+        "score": 0.6029940247535706,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "What was the ratio of the interest income from 2012 to 2011 for The Interpublic Group of Companies?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "IPG/2012/page_44.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.0,
+    "delta": -0.6309297535714575,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "PNC/2012/page_58.pdf",
+        "score": 0.310735821723938,
+        "gt": false
+      },
+      {
+        "filename": "DRE/2012/page_31.pdf",
+        "score": 0.298071026802063,
+        "gt": false
+      },
+      {
+        "filename": "BLK/2013/page_123.pdf",
+        "score": 0.29639333486557007,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2012/page_64.pdf",
+        "score": 0.287148654460907,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2012/page_41.pdf",
+        "score": 0.28561171889305115,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "IPG/2006/page_41.pdf",
+        "score": 0.5755239129066467,
+        "gt": false
+      },
+      {
+        "filename": "GS/2013/page_47.pdf",
+        "score": 0.5463260412216187,
+        "gt": false
+      },
+      {
+        "filename": "GS/2012/page_57.pdf",
+        "score": 0.5439478158950806,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2011/page_44.pdf",
+        "score": 0.5428631901741028,
+        "gt": false
+      },
+      {
+        "filename": "GS/2012/page_50.pdf",
+        "score": 0.5383443832397461,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "What was the percentage growth in Humana's stock total return performance from $152 at the end of 2013 to $214 at the end of 2014?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "HUM/2017/page_45.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "HUM/2015/page_46.pdf",
+        "score": 0.38616234064102173,
+        "gt": false
+      },
+      {
+        "filename": "HUM/2018/page_46.pdf",
+        "score": 0.3473562002182007,
+        "gt": false
+      },
+      {
+        "filename": "HUM/2017/page_45.pdf",
+        "score": 0.33134639263153076,
+        "gt": true
+      },
+      {
+        "filename": "AAL/2015/page_51.pdf",
+        "score": 0.33012574911117554,
+        "gt": false
+      },
+      {
+        "filename": "HUM/2014/page_44.pdf",
+        "score": 0.32404595613479614,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "HUM/2014/page_44.pdf",
+        "score": 0.6878745555877686,
+        "gt": false
+      },
+      {
+        "filename": "HUM/2015/page_46.pdf",
+        "score": 0.6716219782829285,
+        "gt": false
+      },
+      {
+        "filename": "HUM/2018/page_46.pdf",
+        "score": 0.6663569808006287,
+        "gt": false
+      },
+      {
+        "filename": "HUM/2017/page_45.pdf",
+        "score": 0.6659622192382812,
+        "gt": true
+      },
+      {
+        "filename": "HUM/2018/page_129.pdf",
+        "score": 0.555428147315979,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.43067655807339306
+  },
+  {
+    "query": "What was the net change in the number of Schlumberger's shares outstanding from December 31, 2010, to December 31, 2011, as reflected in the company's shares of common stock statement?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "SLB/2011/page_56.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "SLB/2012/page_56.pdf",
+        "score": 0.44870734214782715,
+        "gt": false
+      },
+      {
+        "filename": "SLB/2011/page_56.pdf",
+        "score": 0.41396111249923706,
+        "gt": true
+      },
+      {
+        "filename": "SLB/2012/page_44.pdf",
+        "score": 0.3995514512062073,
+        "gt": false
+      },
+      {
+        "filename": "SLB/2010/page_58.pdf",
+        "score": 0.38923996686935425,
+        "gt": false
+      },
+      {
+        "filename": "SLB/2009/page_57.pdf",
+        "score": 0.36173775792121887,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "SLB/2010/page_58.pdf",
+        "score": 0.7423713207244873,
+        "gt": false
+      },
+      {
+        "filename": "SLB/2009/page_57.pdf",
+        "score": 0.732536256313324,
+        "gt": false
+      },
+      {
+        "filename": "SLB/2012/page_56.pdf",
+        "score": 0.6745503544807434,
+        "gt": false
+      },
+      {
+        "filename": "SLB/2011/page_56.pdf",
+        "score": 0.6725063323974609,
+        "gt": true
+      },
+      {
+        "filename": "SLB/2003/page_57.pdf",
+        "score": 0.6724607944488525,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.43067655807339306
+  },
+  {
+    "query": "What was the total sales and service revenue for Huntington Ingalls Industries in 2015, considering the quarterly financial results provided?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "HII/2015/page_120.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "HII/2013/page_116.pdf",
+        "score": 0.3381109833717346,
+        "gt": false
+      },
+      {
+        "filename": "HII/2015/page_120.pdf",
+        "score": 0.3061407804489136,
+        "gt": true
+      },
+      {
+        "filename": "HII/2014/page_69.pdf",
+        "score": 0.2958965301513672,
+        "gt": false
+      },
+      {
+        "filename": "ALLE/2015/page_24.pdf",
+        "score": 0.2941817045211792,
+        "gt": false
+      },
+      {
+        "filename": "HII/2015/page_121.pdf",
+        "score": 0.2585020065307617,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "HII/2014/page_69.pdf",
+        "score": 0.6423141360282898,
+        "gt": false
+      },
+      {
+        "filename": "HII/2013/page_116.pdf",
+        "score": 0.6224732995033264,
+        "gt": false
+      },
+      {
+        "filename": "HII/2018/page_64.pdf",
+        "score": 0.6046738624572754,
+        "gt": false
+      },
+      {
+        "filename": "HII/2011/page_103.pdf",
+        "score": 0.5692024827003479,
+        "gt": false
+      },
+      {
+        "filename": "HII/2011/page_100.pdf",
+        "score": 0.5550096035003662,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "What percentage of Apple Inc.'s future minimum lease payments under noncancelable operating leases, as disclosed in the 2014 Form 10-K report, are due after the year 2019?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AAPL/2014/page_78.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AAPL/2013/page_78.pdf",
+        "score": 0.4390881657600403,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2012/page_71.pdf",
+        "score": 0.4378011226654053,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2014/page_78.pdf",
+        "score": 0.43264520168304443,
+        "gt": true
+      },
+      {
+        "filename": "AAPL/2015/page_68.pdf",
+        "score": 0.4039095640182495,
+        "gt": false
+      },
+      {
+        "filename": "UA/2011/page_70.pdf",
+        "score": 0.3726191520690918,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AON/2007/page_185.pdf",
+        "score": 0.6839502453804016,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2014/page_78.pdf",
+        "score": 0.6829813718795776,
+        "gt": true
+      },
+      {
+        "filename": "AAPL/2013/page_78.pdf",
+        "score": 0.6567044258117676,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2007/page_83.pdf",
+        "score": 0.6416219472885132,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2015/page_68.pdf",
+        "score": 0.6317813396453857,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What was the percentage increase in the weighted average grant-date fair value of share awards granted by Global Payments from the year ended May 31, 2006, to the year ended May 31, 2007, as reported in the Notes to Consolidated Financial Statements for 2008?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "GPN/2008/page_92.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "GPN/2009/page_85.pdf",
+        "score": 0.41919660568237305,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2008/page_88.pdf",
+        "score": 0.3798258900642395,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2008/page_39.pdf",
+        "score": 0.3635149598121643,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2008/page_92.pdf",
+        "score": 0.35458025336265564,
+        "gt": true
+      },
+      {
+        "filename": "GPN/2010/page_89.pdf",
+        "score": 0.35137587785720825,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.43067655807339306,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "GPN/2010/page_87.pdf",
+        "score": 0.6981643438339233,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2008/page_88.pdf",
+        "score": 0.6910368800163269,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2008/page_92.pdf",
+        "score": 0.660376787185669,
+        "gt": true
+      },
+      {
+        "filename": "GPN/2009/page_85.pdf",
+        "score": 0.6407577991485596,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2010/page_89.pdf",
+        "score": 0.6269339323043823,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.5
+  },
+  {
+    "query": "What is the average interest income for the years 2013 and 2014, as reported by The Interpublic Group of Companies in their 2014 financial report, in millions of dollars?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "IPG/2014/page_47.pdf"
+    ],
+    "mr_ndcg": 0.4306765580733931,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.0,
+    "delta": -0.4306765580733931,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "CMCSA/2015/page_64.pdf",
+        "score": 0.2898860573768616,
+        "gt": false
+      },
+      {
+        "filename": "GIS/2014/page_25.pdf",
+        "score": 0.2885948121547699,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2014/page_32.pdf",
+        "score": 0.2849626839160919,
+        "gt": false
+      },
+      {
+        "filename": "APD/2015/page_39.pdf",
+        "score": 0.28285348415374756,
+        "gt": false
+      },
+      {
+        "filename": "MO/2014/page_11.pdf",
+        "score": 0.2822325825691223,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "TR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "IPG/2006/page_41.pdf",
+        "score": 0.5881954431533813,
+        "gt": false
+      },
+      {
+        "filename": "STT/2014/page_69.pdf",
+        "score": 0.5648478269577026,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2015/page_92.pdf",
+        "score": 0.5626242756843567,
+        "gt": false
+      },
+      {
+        "filename": "GS/2013/page_47.pdf",
+        "score": 0.5620735883712769,
+        "gt": false
+      },
+      {
+        "filename": "MMM/2007/page_23.pdf",
+        "score": 0.5546106100082397,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0,
+    "TR_rerank_top5": [
+      {
+        "filename": "IPG/2006/page_41.pdf",
+        "score": 34.36430740356445,
+        "gt": false
+      },
+      {
+        "filename": "MMM/2007/page_23.pdf",
+        "score": 34.22001647949219,
+        "gt": false
+      }
+    ],
+    "TR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What was the total dividend paid to Class C Series II and Series III common stockholders of Visa Inc. in 2008, expressed in billions?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "V/2008/page_136.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "V/2008/page_165.pdf",
+        "score": 0.4656510055065155,
+        "gt": false
+      },
+      {
+        "filename": "V/2008/page_136.pdf",
+        "score": 0.41612374782562256,
+        "gt": true
+      },
+      {
+        "filename": "V/2008/page_163.pdf",
+        "score": 0.40865615010261536,
+        "gt": false
+      },
+      {
+        "filename": "V/2008/page_164.pdf",
+        "score": 0.39659005403518677,
+        "gt": false
+      },
+      {
+        "filename": "V/2009/page_88.pdf",
+        "score": 0.34536945819854736,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "V/2008/page_165.pdf",
+        "score": 0.6631302833557129,
+        "gt": false
+      },
+      {
+        "filename": "V/2008/page_136.pdf",
+        "score": 0.650968074798584,
+        "gt": true
+      },
+      {
+        "filename": "V/2008/page_164.pdf",
+        "score": 0.6352003812789917,
+        "gt": false
+      },
+      {
+        "filename": "V/2008/page_163.pdf",
+        "score": 0.6200450658798218,
+        "gt": false
+      },
+      {
+        "filename": "V/2013/page_41.pdf",
+        "score": 0.6013551950454712,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "If Aon's HR Solutions segment generated approximately 25% of the company's consolidated total revenues in 2010, and the revenue for HR Solutions in 2010 was $2111 million, what were the total revenues for Aon in 2010?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AON/2010/page_55.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AON/2011/page_134.pdf",
+        "score": 0.43692082166671753,
+        "gt": false
+      },
+      {
+        "filename": "AON/2011/page_63.pdf",
+        "score": 0.4354097843170166,
+        "gt": false
+      },
+      {
+        "filename": "AON/2010/page_55.pdf",
+        "score": 0.42883065342903137,
+        "gt": true
+      },
+      {
+        "filename": "AON/2011/page_61.pdf",
+        "score": 0.3536270260810852,
+        "gt": false
+      },
+      {
+        "filename": "AON/2010/page_52.pdf",
+        "score": 0.35063794255256653,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AON/2011/page_134.pdf",
+        "score": 0.6934255361557007,
+        "gt": false
+      },
+      {
+        "filename": "AON/2011/page_63.pdf",
+        "score": 0.687315046787262,
+        "gt": false
+      },
+      {
+        "filename": "AON/2010/page_55.pdf",
+        "score": 0.6791990995407104,
+        "gt": true
+      },
+      {
+        "filename": "AON/2011/page_61.pdf",
+        "score": 0.6148916482925415,
+        "gt": false
+      },
+      {
+        "filename": "AON/2014/page_47.pdf",
+        "score": 0.6041288375854492,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.5
+  },
+  {
+    "query": "What percentage of Zimmer Holdings, Inc.'s total contractual obligations in 2003 is attributed to operating leases?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "ZBH/2003/page_42.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "ZBH/2004/page_50.pdf",
+        "score": 0.38608890771865845,
+        "gt": false
+      },
+      {
+        "filename": "ZBH/2003/page_42.pdf",
+        "score": 0.3736838698387146,
+        "gt": true
+      },
+      {
+        "filename": "EW/2004/page_51.pdf",
+        "score": 0.3660891354084015,
+        "gt": false
+      },
+      {
+        "filename": "ZBH/2007/page_54.pdf",
+        "score": 0.3406497836112976,
+        "gt": false
+      },
+      {
+        "filename": "GRMN/2007/page_76.pdf",
+        "score": 0.33772534132003784,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "ZBH/2003/page_40.pdf",
+        "score": 0.592786967754364,
+        "gt": false
+      },
+      {
+        "filename": "HOLX/2008/page_84.pdf",
+        "score": 0.5894564390182495,
+        "gt": false
+      },
+      {
+        "filename": "ZBH/2003/page_42.pdf",
+        "score": 0.5835656523704529,
+        "gt": true
+      },
+      {
+        "filename": "ANSS/2013/page_55.pdf",
+        "score": 0.5806981921195984,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2005/page_64.pdf",
+        "score": 0.5787949562072754,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.5
+  },
+  {
+    "query": "What was the total liability in millions for capital lease and ground leases as of December 31, 2010, for SL Green Realty Corp. as disclosed in the 2010 Annual Report?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "SLG/2010/page_50.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.4306765580733931,
+    "delta": -0.5693234419266069,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "SLG/2009/page_99.pdf",
+        "score": 0.3574032187461853,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2010/page_90.pdf",
+        "score": 0.35000693798065186,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2010/page_81.pdf",
+        "score": 0.3474362790584564,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2010/page_50.pdf",
+        "score": 0.3342592120170593,
+        "gt": true
+      },
+      {
+        "filename": "DRE/2010/page_41.pdf",
+        "score": 0.31850796937942505,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.43067655807339306,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "SLG/2009/page_99.pdf",
+        "score": 0.6850661039352417,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2017/page_61.pdf",
+        "score": 0.6535990238189697,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2002/page_56.pdf",
+        "score": 0.6344738602638245,
+        "gt": false
+      },
+      {
+        "filename": "DRE/2010/page_41.pdf",
+        "score": 0.6181674599647522,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2010/page_90.pdf",
+        "score": 0.6158415079116821,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "Without the retail electric price and volume/weather adjustments, what would Entergy Louisiana's 2015 net revenue be, in millions, as reported in the 2016 financial discussion and analysis?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "ETR/2016/page_343.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "ETR/2017/page_25.pdf",
+        "score": 0.5266093015670776,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2015/page_17.pdf",
+        "score": 0.5161387324333191,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2016/page_17.pdf",
+        "score": 0.5112091302871704,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2016/page_342.pdf",
+        "score": 0.5097683072090149,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2016/page_343.pdf",
+        "score": 0.49528658390045166,
+        "gt": true
+      }
+    ],
+    "MD_dense_ndcg5": 0.38685280723454163,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "ETR/2016/page_23.pdf",
+        "score": 0.7291300296783447,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2016/page_343.pdf",
+        "score": 0.7257585525512695,
+        "gt": true
+      },
+      {
+        "filename": "ETR/2016/page_342.pdf",
+        "score": 0.7251991033554077,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2015/page_17.pdf",
+        "score": 0.7162429094314575,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2017/page_343.pdf",
+        "score": 0.7136253118515015,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What was the change in the carrying amount of available-for-sale securities, in billions of dollars, from December 31, 2007, to December 31, 2008, as reported by Citigroup in its 2008 financial statements?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "C/2008/page_189.pdf"
+    ],
+    "mr_ndcg": 0.3868528072345416,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.0,
+    "delta": -0.3868528072345416,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "C/2008/page_102.pdf",
+        "score": 0.4385589361190796,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_212.pdf",
+        "score": 0.4227476119995117,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_110.pdf",
+        "score": 0.40907955169677734,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_65.pdf",
+        "score": 0.3962392210960388,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_211.pdf",
+        "score": 0.39568227529525757,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "C/2009/page_243.pdf",
+        "score": 0.6689562797546387,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_207.pdf",
+        "score": 0.6606497764587402,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2012/page_65.pdf",
+        "score": 0.6270920038223267,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_211.pdf",
+        "score": 0.6254487037658691,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_212.pdf",
+        "score": 0.6208862066268921,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0,
+    "MR_rerank_top5": [
+      {
+        "filename": "C/2008/page_212.pdf",
+        "score": 44.192867279052734,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_102.pdf",
+        "score": 43.80532455444336,
+        "gt": false
+      },
+      {
+        "filename": "C/2008/page_211.pdf",
+        "score": 43.41627502441406,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_110.pdf",
+        "score": 41.421730041503906,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What was the largest annual change in unrealized gain/loss on derivative instruments, as reported in the notes to consolidated financial statements for 2006, specifically in the table summarizing activity in other comprehensive income related to derivatives, held by Apple Inc.?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AAPL/2006/page_103.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AAPL/2008/page_77.pdf",
+        "score": 0.398968905210495,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2008/page_78.pdf",
+        "score": 0.3932170569896698,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_110.pdf",
+        "score": 0.38114261627197266,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2007/page_164.pdf",
+        "score": 0.37876635789871216,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2007/page_79.pdf",
+        "score": 0.37699976563453674,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AAPL/2007/page_79.pdf",
+        "score": 0.6219106912612915,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2008/page_77.pdf",
+        "score": 0.6207128763198853,
+        "gt": false
+      },
+      {
+        "filename": "INTC/2016/page_100.pdf",
+        "score": 0.6118788719177246,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2007/page_164.pdf",
+        "score": 0.6087190508842468,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2008/page_78.pdf",
+        "score": 0.6044844388961792,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0,
+    "MR_rerank_top5": [
+      {
+        "filename": "JPM/2007/page_164.pdf",
+        "score": 34.55168151855469,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_110.pdf",
+        "score": 34.4277458190918,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What is the percentage increase in the risk-free interest rate used in the Black-Scholes option-pricing model for State Street Corporation from 2004 to 2005, as disclosed in the company's 2006 report?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "STT/2006/page_96.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "STT/2001/page_74.pdf",
+        "score": 0.38988006114959717,
+        "gt": false
+      },
+      {
+        "filename": "STT/2006/page_96.pdf",
+        "score": 0.381112277507782,
+        "gt": true
+      },
+      {
+        "filename": "VRTX/2006/page_101.pdf",
+        "score": 0.3693004846572876,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2004/page_102.pdf",
+        "score": 0.3679831624031067,
+        "gt": false
+      },
+      {
+        "filename": "GRMN/2006/page_91.pdf",
+        "score": 0.3672198951244354,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "STT/2001/page_74.pdf",
+        "score": 0.6318500638008118,
+        "gt": false
+      },
+      {
+        "filename": "EMN/2006/page_110.pdf",
+        "score": 0.563225507736206,
+        "gt": false
+      },
+      {
+        "filename": "STT/2008/page_83.pdf",
+        "score": 0.5489974617958069,
+        "gt": false
+      },
+      {
+        "filename": "STT/2006/page_96.pdf",
+        "score": 0.5300784111022949,
+        "gt": true
+      },
+      {
+        "filename": "EMN/2007/page_129.pdf",
+        "score": 0.5294885635375977,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.43067655807339306
+  },
+  {
+    "query": "What percentage of the total miles of track operated by Union Pacific Corporation in 2012 were comprised of switching and classification yard lines?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2013/page_14.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2013/page_14.pdf",
+        "score": 0.41194212436676025,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2014/page_14.pdf",
+        "score": 0.4099538326263428,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2015/page_14.pdf",
+        "score": 0.38856297731399536,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_55.pdf",
+        "score": 0.34137409925460815,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2013/page_54.pdf",
+        "score": 0.3214748501777649,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2014/page_14.pdf",
+        "score": 0.6194623708724976,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2015/page_14.pdf",
+        "score": 0.6148838996887207,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2013/page_14.pdf",
+        "score": 0.5987229943275452,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2006/page_15.pdf",
+        "score": 0.5924267768859863,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_55.pdf",
+        "score": 0.5915628671646118,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.5
+  },
+  {
+    "query": "What is the lowest net revenue in thousands among the four quarters of 2006 for Monster Beverage?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MNST/2006/page_55.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "TTWO/2006/page_60.pdf",
+        "score": 0.35516032576560974,
+        "gt": false
+      },
+      {
+        "filename": "MNST/2006/page_55.pdf",
+        "score": 0.3314777910709381,
+        "gt": true
+      },
+      {
+        "filename": "ADSK/2007/page_123.pdf",
+        "score": 0.3149649202823639,
+        "gt": false
+      },
+      {
+        "filename": "GLW/2006/page_202.pdf",
+        "score": 0.3095315098762512,
+        "gt": false
+      },
+      {
+        "filename": "MSCI/2008/page_127.pdf",
+        "score": 0.29315629601478577,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the smallest liability value among current liabilities, asset retirement obligation, long-term obligations net of current maturities, deferred revenues, and other long-term liabilities for Edison International in 2008?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "EIX/2009/page_253.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "EIX/2009/page_170.pdf",
+        "score": 0.4093415439128876,
+        "gt": false
+      },
+      {
+        "filename": "EIX/2009/page_172.pdf",
+        "score": 0.3701692223548889,
+        "gt": false
+      },
+      {
+        "filename": "EIX/2009/page_253.pdf",
+        "score": 0.36519259214401245,
+        "gt": true
+      },
+      {
+        "filename": "A/2008/page_48.pdf",
+        "score": 0.3556532561779022,
+        "gt": false
+      },
+      {
+        "filename": "A/2009/page_50.pdf",
+        "score": 0.33815327286720276,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median of the net income attributable to Regency Centers, preferred stock dividends and issuance costs, and the difference between these two values for the year 2017?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "REG/2018/page_84.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "REG/2017/page_86.pdf",
+        "score": 0.350858211517334,
+        "gt": false
+      },
+      {
+        "filename": "REG/2018/page_84.pdf",
+        "score": 0.33987122774124146,
+        "gt": true
+      },
+      {
+        "filename": "REG/2017/page_90.pdf",
+        "score": 0.3321475386619568,
+        "gt": false
+      },
+      {
+        "filename": "REG/2018/page_92.pdf",
+        "score": 0.32893067598342896,
+        "gt": false
+      },
+      {
+        "filename": "REG/2017/page_94.pdf",
+        "score": 0.32568687200546265,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average value of contract settlement and related costs (gain), foreign exchange losses, loss on sales of equipment, and other items for West Pharmaceutical Services in 2008?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WST/2008/page_55.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WST/2008/page_35.pdf",
+        "score": 0.37296825647354126,
+        "gt": false
+      },
+      {
+        "filename": "WST/2008/page_55.pdf",
+        "score": 0.3401487171649933,
+        "gt": true
+      },
+      {
+        "filename": "WST/2008/page_51.pdf",
+        "score": 0.3132207989692688,
+        "gt": false
+      },
+      {
+        "filename": "WST/2008/page_48.pdf",
+        "score": 0.307272344827652,
+        "gt": false
+      },
+      {
+        "filename": "WST/2008/page_36.pdf",
+        "score": 0.29916590452194214,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the maximum value between interest expense income net and other income net in the year 2014, which contributes to the total other income expense?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "IPGP/2014/page_62.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.0,
+    "delta": -0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "XRAY/2014/page_82.pdf",
+        "score": 0.38083377480506897,
+        "gt": false
+      },
+      {
+        "filename": "XRAY/2016/page_51.pdf",
+        "score": 0.35517239570617676,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2014/page_169.pdf",
+        "score": 0.3454614281654358,
+        "gt": false
+      },
+      {
+        "filename": "ALK/2016/page_60.pdf",
+        "score": 0.34403514862060547,
+        "gt": false
+      },
+      {
+        "filename": "ALK/2015/page_55.pdf",
+        "score": 0.3387500047683716,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value between operating income and interest income, net for Monster Beverage in 2005?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MNST/2006/page_96.pdf"
+    ],
+    "mr_ndcg": 0.3868528072345416,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.0,
+    "delta": -0.3868528072345416,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MNST/2015/page_76.pdf",
+        "score": 0.33981916308403015,
+        "gt": false
+      },
+      {
+        "filename": "MNST/2011/page_72.pdf",
+        "score": 0.32646697759628296,
+        "gt": false
+      },
+      {
+        "filename": "MNST/2013/page_72.pdf",
+        "score": 0.32147520780563354,
+        "gt": false
+      },
+      {
+        "filename": "MU/2007/page_40.pdf",
+        "score": 0.3180736005306244,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2007/page_71.pdf",
+        "score": 0.31722337007522583,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "MR"
+    ],
+    "MR_rerank_top5": [
+      {
+        "filename": "MNST/2013/page_72.pdf",
+        "score": 22.66770362854004,
+        "gt": false
+      },
+      {
+        "filename": "MNST/2011/page_72.pdf",
+        "score": 22.666715621948242,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What is the cumulative value of federal, state, and foreign deferred expense benefits for Microchip Technology in the year 2006?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MCHP/2007/page_70.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.4306765580733931,
+    "delta": -0.5693234419266069,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MCHP/2008/page_83.pdf",
+        "score": 0.3273695707321167,
+        "gt": false
+      },
+      {
+        "filename": "MCHP/2006/page_82.pdf",
+        "score": 0.3155593276023865,
+        "gt": false
+      },
+      {
+        "filename": "XLNX/2006/page_64.pdf",
+        "score": 0.29960373044013977,
+        "gt": false
+      },
+      {
+        "filename": "MCHP/2007/page_70.pdf",
+        "score": 0.28984689712524414,
+        "gt": true
+      },
+      {
+        "filename": "MU/2007/page_43.pdf",
+        "score": 0.27848535776138306,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.43067655807339306,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the maximum value among earnings from operations, interest expense, interest income, and other expense income net for the year 2015 that contributes to earnings before income taxes?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "FLIR/2016/page_39.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "JBHT/2015/page_73.pdf",
+        "score": 0.3920726180076599,
+        "gt": false
+      },
+      {
+        "filename": "JBHT/2016/page_103.pdf",
+        "score": 0.387096107006073,
+        "gt": false
+      },
+      {
+        "filename": "FLS/2016/page_69.pdf",
+        "score": 0.38497066497802734,
+        "gt": false
+      },
+      {
+        "filename": "FLS/2015/page_69.pdf",
+        "score": 0.3839832544326782,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2016/page_89.pdf",
+        "score": 0.37364235520362854,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the highest value between interest revenue and interest expense for Charles Schwab Corporation in the year 2015, which contributes to the net interest revenue?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "SCHW/2015/page_75.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "SCHW/2015/page_52.pdf",
+        "score": 0.42462441325187683,
+        "gt": false
+      },
+      {
+        "filename": "SCHW/2017/page_98.pdf",
+        "score": 0.4237726926803589,
+        "gt": false
+      },
+      {
+        "filename": "SCHW/2015/page_75.pdf",
+        "score": 0.40268659591674805,
+        "gt": true
+      },
+      {
+        "filename": "SCHW/2017/page_30.pdf",
+        "score": 0.39967235922813416,
+        "gt": false
+      },
+      {
+        "filename": "SCHW/2014/page_124.pdf",
+        "score": 0.39536479115486145,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value among the accrued expenses, retirement benefits, tax credits and net operating losses, and valuation allowances that contribute to the total deferred tax assets for Baxter International as of December 31, 2012?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "BAX/2013/page_97.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WAT/2012/page_66.pdf",
+        "score": 0.44046443700790405,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2013/page_97.pdf",
+        "score": 0.42853063344955444,
+        "gt": true
+      },
+      {
+        "filename": "BAX/2012/page_93.pdf",
+        "score": 0.4250839948654175,
+        "gt": false
+      },
+      {
+        "filename": "VAR/2012/page_151.pdf",
+        "score": 0.40107327699661255,
+        "gt": false
+      },
+      {
+        "filename": "JBHT/2014/page_82.pdf",
+        "score": 0.393690288066864,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value of Nonoperating Income (Expense) for the year 2013, which is subtracted from Operating Income to obtain Income before income tax?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "ALK/2015/page_55.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.5,
+    "delta": -0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WRB/2013/page_98.pdf",
+        "score": 0.39995914697647095,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2013/page_97.pdf",
+        "score": 0.3977589011192322,
+        "gt": false
+      },
+      {
+        "filename": "ALK/2015/page_55.pdf",
+        "score": 0.37856000661849976,
+        "gt": true
+      },
+      {
+        "filename": "MSCI/2013/page_106.pdf",
+        "score": 0.36363664269447327,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2013/page_74.pdf",
+        "score": 0.36166712641716003,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average of operating income, interest income (expense) net, and other income (expense) net for the year 2009 in the Consolidated Statement of Income Data?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "IPGP/2012/page_47.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DVA/2009/page_72.pdf",
+        "score": 0.44417011737823486,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2010/page_75.pdf",
+        "score": 0.44203540682792664,
+        "gt": false
+      },
+      {
+        "filename": "MNST/2009/page_75.pdf",
+        "score": 0.43902352452278137,
+        "gt": false
+      },
+      {
+        "filename": "IPGP/2010/page_65.pdf",
+        "score": 0.43256741762161255,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2010/page_60.pdf",
+        "score": 0.43207088112831116,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average of Compensation and Benefits and Other Operating Expenses for Marsh McLennan in 2013?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MMC/2015/page_50.pdf",
+      "MMC/2014/page_49.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MMC/2013/page_39.pdf",
+        "score": 0.39072293043136597,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2015/page_50.pdf",
+        "score": 0.38046833872795105,
+        "gt": true
+      },
+      {
+        "filename": "MMC/2013/page_74.pdf",
+        "score": 0.369390606880188,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2013/page_44.pdf",
+        "score": 0.3663061261177063,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2014/page_49.pdf",
+        "score": 0.3560028076171875,
+        "gt": true
+      }
+    ],
+    "MD_dense_ndcg5": 0.6240505200038379,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value between income from continuing operations and income loss from discontinued operations net of tax for the years ended December 29, 2012, and December 31, 2011, which contributes to the net income and represents a decline?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "HBI/2012/page_38.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.4306765580733931,
+    "delta": -0.5693234419266069,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "FLIR/2012/page_31.pdf",
+        "score": 0.3727816939353943,
+        "gt": false
+      },
+      {
+        "filename": "HBI/2013/page_99.pdf",
+        "score": 0.3592102527618408,
+        "gt": false
+      },
+      {
+        "filename": "HBI/2012/page_38.pdf",
+        "score": 0.3577672839164734,
+        "gt": true
+      },
+      {
+        "filename": "PNW/2013/page_83.pdf",
+        "score": 0.35484254360198975,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2012/page_81.pdf",
+        "score": 0.35338762402534485,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the cumulative value of common stock and participating securities that contributes to the denominator for basic earnings per common share for the year 2012?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "FLS/2012/page_78.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DFS/2012/page_156.pdf",
+        "score": 0.4101346731185913,
+        "gt": false
+      },
+      {
+        "filename": "FLS/2012/page_78.pdf",
+        "score": 0.40606454014778137,
+        "gt": true
+      },
+      {
+        "filename": "AIV/2013/page_108.pdf",
+        "score": 0.40210339426994324,
+        "gt": false
+      },
+      {
+        "filename": "FLS/2016/page_81.pdf",
+        "score": 0.38382530212402344,
+        "gt": false
+      },
+      {
+        "filename": "FLS/2015/page_81.pdf",
+        "score": 0.37841367721557617,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average value of wages, pension and defined-contribution retirement benefits, medical benefits, and other benefits and payroll taxes for the year 2010, as reported in the financial statements for the year ended December 31, 2010?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "ALK/2011/page_114.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 0.4306765580733931,
+    "delta": -0.20025319549806442,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "ALK/2012/page_124.pdf",
+        "score": 0.43221354484558105,
+        "gt": false
+      },
+      {
+        "filename": "ALK/2011/page_115.pdf",
+        "score": 0.3880816102027893,
+        "gt": false
+      },
+      {
+        "filename": "ALK/2011/page_120.pdf",
+        "score": 0.36665287613868713,
+        "gt": false
+      },
+      {
+        "filename": "FLIR/2010/page_75.pdf",
+        "score": 0.36283376812934875,
+        "gt": false
+      },
+      {
+        "filename": "WAT/2011/page_70.pdf",
+        "score": 0.36027613282203674,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value of property operating expenses for either Affordable Same Store or Other Affordable categories in 2011?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "AIV/2013/page_38.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AIV/2012/page_37.pdf",
+        "score": 0.5176829099655151,
+        "gt": false
+      },
+      {
+        "filename": "AIV/2012/page_36.pdf",
+        "score": 0.49998176097869873,
+        "gt": false
+      },
+      {
+        "filename": "AIV/2013/page_38.pdf",
+        "score": 0.4778483510017395,
+        "gt": true
+      },
+      {
+        "filename": "AIV/2013/page_37.pdf",
+        "score": 0.454289972782135,
+        "gt": false
+      },
+      {
+        "filename": "AIV/2013/page_36.pdf",
+        "score": 0.3798504173755646,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value for the year 2012 across the different business segments of W. R. Berkley Corporation, including Specialty, Regional, Alternative Markets, Reinsurance, International, and Corporate, other and eliminations?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WRB/2012/page_111.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WRB/2012/page_22.pdf",
+        "score": 0.4706801772117615,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_111.pdf",
+        "score": 0.43889182806015015,
+        "gt": true
+      },
+      {
+        "filename": "WRB/2013/page_123.pdf",
+        "score": 0.3949061632156372,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_33.pdf",
+        "score": 0.37834811210632324,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_69.pdf",
+        "score": 0.37126749753952026,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the sum of Product and Service revenues for KLA Corporation in the year 2013?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "KLAC/2013/page_66.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "KLAC/2015/page_77.pdf",
+        "score": 0.4605518579483032,
+        "gt": false
+      },
+      {
+        "filename": "KLAC/2013/page_66.pdf",
+        "score": 0.459026038646698,
+        "gt": true
+      },
+      {
+        "filename": "KLAC/2009/page_67.pdf",
+        "score": 0.34864112734794617,
+        "gt": false
+      },
+      {
+        "filename": "KLAC/2008/page_58.pdf",
+        "score": 0.3434728980064392,
+        "gt": false
+      },
+      {
+        "filename": "KLAC/2015/page_80.pdf",
+        "score": 0.33368510007858276,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the maximum value among operating income (loss), gains on strategic investments, net, and interest and other income (expense), net for the year 2013, which contributes to the income (loss) before provision for (benefit from) income taxes?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "EA/2015/page_96.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": -0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "TTWO/2013/page_99.pdf",
+        "score": 0.42823514342308044,
+        "gt": false
+      },
+      {
+        "filename": "EA/2015/page_96.pdf",
+        "score": 0.40073949098587036,
+        "gt": true
+      },
+      {
+        "filename": "MNST/2013/page_72.pdf",
+        "score": 0.3945450186729431,
+        "gt": false
+      },
+      {
+        "filename": "TTWO/2013/page_88.pdf",
+        "score": 0.38945382833480835,
+        "gt": false
+      },
+      {
+        "filename": "MTD/2014/page_85.pdf",
+        "score": 0.3848997950553894,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "MR"
+    ],
+    "MR_rerank_top5": [
+      {
+        "filename": "EA/2015/page_96.pdf",
+        "score": 46.489662170410156,
+        "gt": true
+      },
+      {
+        "filename": "MNST/2013/page_72.pdf",
+        "score": 41.73078536987305,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 1.0
+  },
+  {
+    "query": "What was the percentage change in the cash and cash equivalents of Jack Henry & Associates at June 30, 2008, compared to June 30, 2007?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "JKHY/2008/page_30.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "JKHY/2009/page_28.pdf",
+        "score": 0.3379867672920227,
+        "gt": false
+      },
+      {
+        "filename": "JKHY/2008/page_30.pdf",
+        "score": 0.3363932967185974,
+        "gt": true
+      },
+      {
+        "filename": "JKHY/2018/page_16.pdf",
+        "score": 0.3013249635696411,
+        "gt": false
+      },
+      {
+        "filename": "JKHY/2015/page_20.pdf",
+        "score": 0.2872195243835449,
+        "gt": false
+      },
+      {
+        "filename": "JKHY/2017/page_26.pdf",
+        "score": 0.27728158235549927,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "JKHY/2009/page_28.pdf",
+        "score": 0.6134070754051208,
+        "gt": false
+      },
+      {
+        "filename": "JKHY/2008/page_30.pdf",
+        "score": 0.5883611440658569,
+        "gt": true
+      },
+      {
+        "filename": "SWKS/2010/page_105.pdf",
+        "score": 0.5714646577835083,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2007/page_51.pdf",
+        "score": 0.5686258673667908,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2009/page_38.pdf",
+        "score": 0.5614026188850403,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What percentage of the total minimum operating lease payments due from Union Pacific Corporation as of December 31, 2009, are scheduled to be paid in 2012?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2009/page_89.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 0.3868528072345416,
+    "delta": 0.3868528072345416,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "SLG/2009/page_99.pdf",
+        "score": 0.3729011118412018,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2008/page_145.pdf",
+        "score": 0.36988532543182373,
+        "gt": false
+      },
+      {
+        "filename": "LKQ/2010/page_84.pdf",
+        "score": 0.36965879797935486,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2009/page_138.pdf",
+        "score": 0.3671482801437378,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2010/page_79.pdf",
+        "score": 0.3669068217277527,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2010/page_79.pdf",
+        "score": 0.6699090003967285,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2011/page_80.pdf",
+        "score": 0.6662949323654175,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.6612250804901123,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2006/page_62.pdf",
+        "score": 0.6448872089385986,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2009/page_89.pdf",
+        "score": 0.623000979423523,
+        "gt": true
+      }
+    ],
+    "TD_dense_ndcg5": 0.38685280723454163
+  },
+  {
+    "query": "What is the percentage change in net revenue from 2002 to 2003 for Entergy Corporation, as reflected in the comparative analysis of net revenue in the 2004 report?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "ETR/2004/page_20.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "ETR/2004/page_20.pdf",
+        "score": 0.46371763944625854,
+        "gt": true
+      },
+      {
+        "filename": "ETR/2004/page_19.pdf",
+        "score": 0.4577715992927551,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2004/page_239.pdf",
+        "score": 0.436359703540802,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2004/page_212.pdf",
+        "score": 0.4251540005207062,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2004/page_258.pdf",
+        "score": 0.4238697588443756,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "ETR/2004/page_19.pdf",
+        "score": 0.7001645565032959,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2004/page_185.pdf",
+        "score": 0.6775161027908325,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2004/page_212.pdf",
+        "score": 0.6754050254821777,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2004/page_20.pdf",
+        "score": 0.6752522587776184,
+        "gt": true
+      },
+      {
+        "filename": "ETR/2004/page_213.pdf",
+        "score": 0.6746401786804199,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.43067655807339306
+  },
+  {
+    "query": "What was the total weighted-average grant-date fair value of incentive/performance unit share awards and restricted stock/unit awards granted in 2011 and 2010, as reported in the 2013 Form 10-K of PNC Financial Services?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "PNC/2012/page_222.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "PNC/2011/page_183.pdf",
+        "score": 0.46184810996055603,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2012/page_222.pdf",
+        "score": 0.46056199073791504,
+        "gt": true
+      },
+      {
+        "filename": "PNC/2013/page_205.pdf",
+        "score": 0.4489881992340088,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2014/page_203.pdf",
+        "score": 0.4250826835632324,
+        "gt": false
+      },
+      {
+        "filename": "HFC/2011/page_92.pdf",
+        "score": 0.3715927004814148,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "PNC/2011/page_183.pdf",
+        "score": 0.7739219665527344,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2012/page_222.pdf",
+        "score": 0.7523892521858215,
+        "gt": true
+      },
+      {
+        "filename": "PNC/2014/page_203.pdf",
+        "score": 0.7444246411323547,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2013/page_205.pdf",
+        "score": 0.7436223030090332,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2016/page_155.pdf",
+        "score": 0.6773651242256165,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What percentage of Goldman Sachs' future minimum rental payments, as disclosed in the 2012 annual report, are due after the year 2017?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "GS/2012/page_177.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 0.3868528072345416,
+    "delta": 0.3868528072345416,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "GS/2013/page_184.pdf",
+        "score": 0.33498361706733704,
+        "gt": false
+      },
+      {
+        "filename": "ANET/2015/page_155.pdf",
+        "score": 0.32287704944610596,
+        "gt": false
+      },
+      {
+        "filename": "VNO/2011/page_187.pdf",
+        "score": 0.32136452198028564,
+        "gt": false
+      },
+      {
+        "filename": "VNO/2012/page_190.pdf",
+        "score": 0.3166799247264862,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.3135678470134735,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AON/2007/page_185.pdf",
+        "score": 0.6705374121665955,
+        "gt": false
+      },
+      {
+        "filename": "GS/2017/page_176.pdf",
+        "score": 0.6337990164756775,
+        "gt": false
+      },
+      {
+        "filename": "GS/2015/page_188.pdf",
+        "score": 0.631900429725647,
+        "gt": false
+      },
+      {
+        "filename": "GS/2016/page_183.pdf",
+        "score": 0.6257797479629517,
+        "gt": false
+      },
+      {
+        "filename": "GS/2012/page_177.pdf",
+        "score": 0.6216517090797424,
+        "gt": true
+      }
+    ],
+    "TD_dense_ndcg5": 0.38685280723454163
+  },
+  {
+    "query": "What percentage of Fidelity National Information Services' total significant contractual obligations and commitments as of December 31, 2007, which amount to $6,643,762, are due in 2009, specifically $615,875?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "FIS/2007/page_52.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "FIS/2007/page_94.pdf",
+        "score": 0.3977058529853821,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2006/page_88.pdf",
+        "score": 0.3829469084739685,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2007/page_52.pdf",
+        "score": 0.37176522612571716,
+        "gt": true
+      },
+      {
+        "filename": "MSI/2006/page_61.pdf",
+        "score": 0.34257563948631287,
+        "gt": false
+      },
+      {
+        "filename": "SLB/2006/page_45.pdf",
+        "score": 0.3360722064971924,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "FIS/2016/page_45.pdf",
+        "score": 0.6688668131828308,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2007/page_94.pdf",
+        "score": 0.6348564028739929,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2006/page_88.pdf",
+        "score": 0.6284394860267639,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2007/page_102.pdf",
+        "score": 0.6214241981506348,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2017/page_92.pdf",
+        "score": 0.6109635829925537,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "What was the percentage increase in total deposits for PNC Financial Services from December 31, 2017, to December 31, 2018, as reflected in the company's 2018 Form 10-K report under the section on liquidity and capital management?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "PNC/2018/page_81.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "PNC/2017/page_76.pdf",
+        "score": 0.4149227738380432,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2018/page_81.pdf",
+        "score": 0.3942312002182007,
+        "gt": true
+      },
+      {
+        "filename": "STT/2017/page_100.pdf",
+        "score": 0.34760162234306335,
+        "gt": false
+      },
+      {
+        "filename": "STT/2017/page_101.pdf",
+        "score": 0.33438047766685486,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2014/page_107.pdf",
+        "score": 0.32568368315696716,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "PNC/2018/page_81.pdf",
+        "score": 0.6844055652618408,
+        "gt": true
+      },
+      {
+        "filename": "PNC/2017/page_76.pdf",
+        "score": 0.6837222576141357,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2014/page_107.pdf",
+        "score": 0.5966026782989502,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2011/page_44.pdf",
+        "score": 0.5906308889389038,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2013/page_111.pdf",
+        "score": 0.5893031358718872,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What is the average yearly amortization rate for trademarks, given that they have a weighted average useful life of 7 years as reported by Adobe Inc. in their 2011 financial statements?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "ADBE/2011/page_83.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "ADBE/2011/page_83.pdf",
+        "score": 0.373298704624176,
+        "gt": true
+      },
+      {
+        "filename": "ADBE/2013/page_68.pdf",
+        "score": 0.34951895475387573,
+        "gt": false
+      },
+      {
+        "filename": "ADBE/2012/page_87.pdf",
+        "score": 0.3344254493713379,
+        "gt": false
+      },
+      {
+        "filename": "ADBE/2014/page_70.pdf",
+        "score": 0.3285906910896301,
+        "gt": false
+      },
+      {
+        "filename": "ADBE/2009/page_81.pdf",
+        "score": 0.3212995231151581,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "ADBE/2011/page_83.pdf",
+        "score": 0.642041802406311,
+        "gt": true
+      },
+      {
+        "filename": "ADBE/2012/page_87.pdf",
+        "score": 0.6358699202537537,
+        "gt": false
+      },
+      {
+        "filename": "ADBE/2013/page_68.pdf",
+        "score": 0.6251885294914246,
+        "gt": false
+      },
+      {
+        "filename": "ADBE/2009/page_81.pdf",
+        "score": 0.5963922739028931,
+        "gt": false
+      },
+      {
+        "filename": "ADBE/2018/page_66.pdf",
+        "score": 0.5946178436279297,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What was the percentage change in Apple Inc.'s inventory from $270 million in 2006 to $346 million in 2007, as reported in the company's 2007 financial statements?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AAPL/2007/page_51.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 1.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AAPL/2008/page_52.pdf",
+        "score": 0.41241365671157837,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2007/page_51.pdf",
+        "score": 0.3786869943141937,
+        "gt": true
+      },
+      {
+        "filename": "ZBH/2008/page_70.pdf",
+        "score": 0.3763430714607239,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_110.pdf",
+        "score": 0.3724972605705261,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_69.pdf",
+        "score": 0.37086597084999084,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AAPL/2007/page_48.pdf",
+        "score": 0.596171498298645,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2010/page_42.pdf",
+        "score": 0.5956681966781616,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2008/page_52.pdf",
+        "score": 0.5955213904380798,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2008/page_50.pdf",
+        "score": 0.5922856330871582,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2011/page_37.pdf",
+        "score": 0.5881080627441406,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0,
+    "MR_rerank_top5": [
+      {
+        "filename": "AAPL/2008/page_52.pdf",
+        "score": 37.54776382446289,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_69.pdf",
+        "score": 35.36985778808594,
+        "gt": false
+      },
+      {
+        "filename": "ZBH/2008/page_70.pdf",
+        "score": 34.567569732666016,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2008/page_110.pdf",
+        "score": 33.811065673828125,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What was the percentage change in the net loss as reported by American Tower from 2001 to 2002, as illustrated in the table that applies the fair value recognition provisions of SFAS No. 123 to stock-based compensation, which utilizes the Black-Scholes option-pricing model?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AMT/2002/page_74.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AMT/2002/page_74.pdf",
+        "score": 0.5128077268600464,
+        "gt": true
+      },
+      {
+        "filename": "AMT/2004/page_76.pdf",
+        "score": 0.5030075311660767,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2005/page_77.pdf",
+        "score": 0.4893389344215393,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2004/page_102.pdf",
+        "score": 0.4059012532234192,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2007/page_83.pdf",
+        "score": 0.374670147895813,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AMT/2002/page_74.pdf",
+        "score": 0.7477322816848755,
+        "gt": true
+      },
+      {
+        "filename": "AMT/2004/page_76.pdf",
+        "score": 0.7324745655059814,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2005/page_77.pdf",
+        "score": 0.7222461700439453,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2004/page_102.pdf",
+        "score": 0.6654325127601624,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2010/page_113.pdf",
+        "score": 0.6635289788246155,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What percentage of the total minimum lease payments, which amount to $5,652 million as of December 31, 2014, for Union Pacific Corporation are attributable to capital leases?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2014/page_80.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": 0.6309297535714575,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.43326535820961,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2014/page_80.pdf",
+        "score": 0.4142458438873291,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2015/page_80.pdf",
+        "score": 0.38923466205596924,
+        "gt": false
+      },
+      {
+        "filename": "DISH/2014/page_142.pdf",
+        "score": 0.38634932041168213,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_79.pdf",
+        "score": 0.38549262285232544,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.7054810523986816,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2010/page_79.pdf",
+        "score": 0.692541241645813,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2011/page_80.pdf",
+        "score": 0.6885107159614563,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2006/page_62.pdf",
+        "score": 0.6814253330230713,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_79.pdf",
+        "score": 0.6509101986885071,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "What was the return on investment (ROI) for Loews Corporation common stock from the initial $100 investment at the end of 2011 to the end of 2012, considering all dividends were reinvested?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "L/2016/page_62.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "L/2016/page_62.pdf",
+        "score": 0.4181509017944336,
+        "gt": true
+      },
+      {
+        "filename": "L/2015/page_59.pdf",
+        "score": 0.3780008852481842,
+        "gt": false
+      },
+      {
+        "filename": "BLL/2011/page_29.pdf",
+        "score": 0.3259885609149933,
+        "gt": false
+      },
+      {
+        "filename": "L/2009/page_84.pdf",
+        "score": 0.325770765542984,
+        "gt": false
+      },
+      {
+        "filename": "AOS/2016/page_19.pdf",
+        "score": 0.32502129673957825,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "L/2009/page_84.pdf",
+        "score": 0.6279116868972778,
+        "gt": false
+      },
+      {
+        "filename": "L/2016/page_62.pdf",
+        "score": 0.6203311681747437,
+        "gt": true
+      },
+      {
+        "filename": "L/2015/page_59.pdf",
+        "score": 0.6032041311264038,
+        "gt": false
+      },
+      {
+        "filename": "BLL/2011/page_29.pdf",
+        "score": 0.5380220413208008,
+        "gt": false
+      },
+      {
+        "filename": "LKQ/2012/page_25.pdf",
+        "score": 0.5374722480773926,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What were the pre-tax earnings of Goldman Sachs' Investing & Lending segment in billions for the year 2012, given that they were $4.33 billion in 2013?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "GS/2013/page_54.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "GS/2013/page_54.pdf",
+        "score": 0.44714564085006714,
+        "gt": true
+      },
+      {
+        "filename": "GS/2015/page_76.pdf",
+        "score": 0.44187188148498535,
+        "gt": false
+      },
+      {
+        "filename": "GS/2014/page_47.pdf",
+        "score": 0.4411662220954895,
+        "gt": false
+      },
+      {
+        "filename": "GS/2012/page_57.pdf",
+        "score": 0.39641135931015015,
+        "gt": false
+      },
+      {
+        "filename": "GS/2016/page_77.pdf",
+        "score": 0.35724735260009766,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "GS/2014/page_47.pdf",
+        "score": 0.7066185474395752,
+        "gt": false
+      },
+      {
+        "filename": "GS/2013/page_54.pdf",
+        "score": 0.6936144232749939,
+        "gt": true
+      },
+      {
+        "filename": "GS/2018/page_76.pdf",
+        "score": 0.69032222032547,
+        "gt": false
+      },
+      {
+        "filename": "GS/2017/page_74.pdf",
+        "score": 0.6807578802108765,
+        "gt": false
+      },
+      {
+        "filename": "GS/2012/page_57.pdf",
+        "score": 0.6758067011833191,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What percentage of Fidelity National Information Services' total significant contractual obligations and commitments as of December 31, 2007, is comprised of interest payments?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "FIS/2007/page_52.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "FIS/2007/page_52.pdf",
+        "score": 0.4002193808555603,
+        "gt": true
+      },
+      {
+        "filename": "FIS/2007/page_94.pdf",
+        "score": 0.3837117552757263,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2006/page_88.pdf",
+        "score": 0.37308672070503235,
+        "gt": false
+      },
+      {
+        "filename": "IPG/2006/page_41.pdf",
+        "score": 0.36455991864204407,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2012/page_46.pdf",
+        "score": 0.35876357555389404,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "FIS/2016/page_45.pdf",
+        "score": 0.6819816827774048,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2012/page_46.pdf",
+        "score": 0.6598926782608032,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2006/page_88.pdf",
+        "score": 0.6578223705291748,
+        "gt": false
+      },
+      {
+        "filename": "FIS/2007/page_94.pdf",
+        "score": 0.6413800716400146,
+        "gt": false
+      },
+      {
+        "filename": "CAG/2007/page_49.pdf",
+        "score": 0.638695478439331,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0,
+    "MR_rerank_top5": [
+      {
+        "filename": "FIS/2006/page_88.pdf",
+        "score": 29.737163543701172,
+        "gt": false
+      },
+      {
+        "filename": "IPG/2006/page_41.pdf",
+        "score": 27.126516342163086,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What percentage of Union Pacific Corporation's total freight revenues in 2014 was attributed to the coal commodity group, as indicated in the freight revenue by commodity group table?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2014/page_56.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2014/page_56.pdf",
+        "score": 0.4525258541107178,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2013/page_54.pdf",
+        "score": 0.42846792936325073,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_55.pdf",
+        "score": 0.4233133792877197,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2015/page_56.pdf",
+        "score": 0.422534316778183,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2016/page_52.pdf",
+        "score": 0.40926212072372437,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2014/page_56.pdf",
+        "score": 0.6251252889633179,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2013/page_54.pdf",
+        "score": 0.6180393695831299,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_55.pdf",
+        "score": 0.6177938580513,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2015/page_56.pdf",
+        "score": 0.6177653074264526,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2016/page_52.pdf",
+        "score": 0.6141223311424255,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0,
+    "MR_rerank_top5": [
+      {
+        "filename": "UNP/2016/page_52.pdf",
+        "score": 34.451908111572266,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2015/page_56.pdf",
+        "score": 34.421051025390625,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What was the average of WestRock Company's net sales for the years ended September 30, 2018 and September 30, 2019, as reflected in the company's consolidated financial statements?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "WRK/2019/page_38.pdf"
+    ],
+    "mr_ndcg": 0.3868528072345416,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.6131471927654584,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WRK/2019/page_38.pdf",
+        "score": 0.3241662383079529,
+        "gt": true
+      },
+      {
+        "filename": "AAPL/2003/page_48.pdf",
+        "score": 0.2755153775215149,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2003/page_61.pdf",
+        "score": 0.2651466727256775,
+        "gt": false
+      },
+      {
+        "filename": "CAG/2007/page_41.pdf",
+        "score": 0.2641313374042511,
+        "gt": false
+      },
+      {
+        "filename": "HOLX/2004/page_87.pdf",
+        "score": 0.26155900955200195,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "WRK/2019/page_38.pdf",
+        "score": 0.7307302951812744,
+        "gt": true
+      },
+      {
+        "filename": "WRK/2018/page_39.pdf",
+        "score": 0.6426408886909485,
+        "gt": false
+      },
+      {
+        "filename": "WRK/2018/page_107.pdf",
+        "score": 0.6281658411026001,
+        "gt": false
+      },
+      {
+        "filename": "WRK/2018/page_106.pdf",
+        "score": 0.6200228929519653,
+        "gt": false
+      },
+      {
+        "filename": "WRK/2019/page_136.pdf",
+        "score": 0.6137465238571167,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What is the current ratio for the year 2004, as reflected in the financial statements of Constellation Brands, considering the total current assets and total current liabilities acquired in the Robert Mondavi acquisition?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "STZ/2005/page_57.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "STZ/2005/page_57.pdf",
+        "score": 0.46175816655158997,
+        "gt": true
+      },
+      {
+        "filename": "STZ/2006/page_68.pdf",
+        "score": 0.4478588402271271,
+        "gt": false
+      },
+      {
+        "filename": "ZBH/2004/page_68.pdf",
+        "score": 0.2835662364959717,
+        "gt": false
+      },
+      {
+        "filename": "STZ/2010/page_51.pdf",
+        "score": 0.27830642461776733,
+        "gt": false
+      },
+      {
+        "filename": "HUM/2004/page_78.pdf",
+        "score": 0.2697136402130127,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "STZ/2005/page_57.pdf",
+        "score": 0.6450195908546448,
+        "gt": true
+      },
+      {
+        "filename": "STZ/2006/page_68.pdf",
+        "score": 0.6401858329772949,
+        "gt": false
+      },
+      {
+        "filename": "STZ/2010/page_51.pdf",
+        "score": 0.5879439115524292,
+        "gt": false
+      },
+      {
+        "filename": "MMM/2005/page_53.pdf",
+        "score": 0.5234603881835938,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2007/page_79.pdf",
+        "score": 0.5132030248641968,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "Was the notional amount of derivatives designated as hedging instruments under GAAP greater than the notional amount of derivatives not designated as hedging instruments under GAAP for PNC Financial Services as of December 31, 2015?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "PNC/2015/page_198.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "PNC/2014/page_205.pdf",
+        "score": 0.519391655921936,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2015/page_198.pdf",
+        "score": 0.5109671354293823,
+        "gt": true
+      },
+      {
+        "filename": "PNC/2013/page_207.pdf",
+        "score": 0.4904532730579376,
+        "gt": false
+      },
+      {
+        "filename": "VLO/2012/page_130.pdf",
+        "score": 0.30877724289894104,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2013/page_66.pdf",
+        "score": 0.3039032220840454,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "PNC/2014/page_205.pdf",
+        "score": 0.7485135197639465,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2013/page_207.pdf",
+        "score": 0.7368676662445068,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2015/page_198.pdf",
+        "score": 0.7361541986465454,
+        "gt": true
+      },
+      {
+        "filename": "GS/2014/page_136.pdf",
+        "score": 0.6004384756088257,
+        "gt": false
+      },
+      {
+        "filename": "K/2012/page_80.pdf",
+        "score": 0.5969638824462891,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.5
+  },
+  {
+    "query": "What were the consolidated total assets of State Street Corporation as of December 31, 2007, given that the total cross-border outstandings presented in the table represented 12% of these assets?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "STT/2008/page_73.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "STT/2007/page_65.pdf",
+        "score": 0.48859813809394836,
+        "gt": false
+      },
+      {
+        "filename": "STT/2008/page_73.pdf",
+        "score": 0.46515125036239624,
+        "gt": true
+      },
+      {
+        "filename": "AMT/2007/page_98.pdf",
+        "score": 0.3397860825061798,
+        "gt": false
+      },
+      {
+        "filename": "STT/2008/page_109.pdf",
+        "score": 0.3235144019126892,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2008/page_144.pdf",
+        "score": 0.3199126720428467,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "STT/2008/page_73.pdf",
+        "score": 0.6955375075340271,
+        "gt": true
+      },
+      {
+        "filename": "STT/2007/page_65.pdf",
+        "score": 0.6668847799301147,
+        "gt": false
+      },
+      {
+        "filename": "STT/2008/page_112.pdf",
+        "score": 0.6062872409820557,
+        "gt": false
+      },
+      {
+        "filename": "MS/2013/page_298.pdf",
+        "score": 0.604823887348175,
+        "gt": false
+      },
+      {
+        "filename": "STT/2011/page_65.pdf",
+        "score": 0.6027964353561401,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "Was the $100 million ending balance of the receivables securitization facility as of December 31, 2012, sufficient to cover the $525 million in payments due for operating leases in 2013, as outlined in the contractual obligations table of Union Pacific Corporation's 2012 report?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2012/page_39.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2011/page_40.pdf",
+        "score": 0.4457651972770691,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_39.pdf",
+        "score": 0.44345808029174805,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2011/page_80.pdf",
+        "score": 0.41736382246017456,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.39790552854537964,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2010/page_79.pdf",
+        "score": 0.37810829281806946,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2012/page_39.pdf",
+        "score": 0.6818856596946716,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2011/page_40.pdf",
+        "score": 0.6812869906425476,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2011/page_80.pdf",
+        "score": 0.6527854204177856,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2013/page_78.pdf",
+        "score": 0.6511853933334351,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2010/page_79.pdf",
+        "score": 0.644862174987793,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What is the minimum value between the net increase/decrease in cash and cash equivalents and the cash and cash equivalents at the beginning of the year for DaVita in 2006, which contributes to the cash and cash equivalents at the end of that year?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "DVA/2007/page_34.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.5,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DVA/2005/page_60.pdf",
+        "score": 0.4253796935081482,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2007/page_34.pdf",
+        "score": 0.4110565185546875,
+        "gt": true
+      },
+      {
+        "filename": "DVA/2002/page_46.pdf",
+        "score": 0.4080082178115845,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2009/page_74.pdf",
+        "score": 0.39848002791404724,
+        "gt": false
+      },
+      {
+        "filename": "WST/2008/page_51.pdf",
+        "score": 0.3941110670566559,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value of market appreciation/depreciation or cash inflow/outflow contributing to the total change in AUM in ETFs linked to MSCI Indices for December 31, 2010?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MSCI/2012/page_83.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MSCI/2012/page_83.pdf",
+        "score": 0.5104443430900574,
+        "gt": true
+      },
+      {
+        "filename": "MSCI/2013/page_78.pdf",
+        "score": 0.4716401696205139,
+        "gt": false
+      },
+      {
+        "filename": "MSCI/2012/page_76.pdf",
+        "score": 0.47012364864349365,
+        "gt": false
+      },
+      {
+        "filename": "MSCI/2017/page_63.pdf",
+        "score": 0.39051127433776855,
+        "gt": false
+      },
+      {
+        "filename": "MSCI/2013/page_66.pdf",
+        "score": 0.3313629627227783,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the maximum value among the balance at the beginning of the period, addition to allowance related to securitized receivables, provision for loan losses, charge-offs related to loans sold, and net charge-offs for the Credit Card segment in the year 2010 for Discover Financial?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "DFS/2012/page_129.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DFS/2010/page_120.pdf",
+        "score": 0.4707976281642914,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2012/page_129.pdf",
+        "score": 0.4675104022026062,
+        "gt": true
+      },
+      {
+        "filename": "DFS/2010/page_103.pdf",
+        "score": 0.3973727822303772,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2010/page_102.pdf",
+        "score": 0.36608463525772095,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2009/page_79.pdf",
+        "score": 0.34282198548316956,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "In Universal Health Services' 2014 report, what is the minimum percentage of net patient revenues from third-party payors for Acute Care and Behavioral Health Care Facilities Combined in 2012?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "UHS/2014/page_86.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UHS/2014/page_86.pdf",
+        "score": 0.46783971786499023,
+        "gt": true
+      },
+      {
+        "filename": "UHS/2013/page_82.pdf",
+        "score": 0.4357464909553528,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2010/page_81.pdf",
+        "score": 0.3963909149169922,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2013/page_73.pdf",
+        "score": 0.3306923508644104,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2013/page_74.pdf",
+        "score": 0.30490022897720337,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value between charge-offs and recoveries for Discover Financial in 2008, which affects the net charge-offs?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "DFS/2009/page_79.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DFS/2010/page_120.pdf",
+        "score": 0.3836117386817932,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2009/page_79.pdf",
+        "score": 0.3711412847042084,
+        "gt": true
+      },
+      {
+        "filename": "DFS/2009/page_100.pdf",
+        "score": 0.3409392535686493,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2009/page_101.pdf",
+        "score": 0.3380141258239746,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2012/page_61.pdf",
+        "score": 0.3374439477920532,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "In W. R. Berkley Corporation's 2013 report, what is the median value of direct, assumed, and ceded written premiums for the year 2011?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WRB/2013/page_96.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.5,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WRB/2013/page_123.pdf",
+        "score": 0.48084279894828796,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2016/page_175.pdf",
+        "score": 0.42090529203414917,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2013/page_96.pdf",
+        "score": 0.3906511664390564,
+        "gt": true
+      },
+      {
+        "filename": "WRB/2012/page_102.pdf",
+        "score": 0.37614986300468445,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_22.pdf",
+        "score": 0.36212027072906494,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value among Innerwear, Activewear, International, and Other assets for the year 2016?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "HBI/2017/page_113.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "HBI/2016/page_112.pdf",
+        "score": 0.4790661931037903,
+        "gt": false
+      },
+      {
+        "filename": "HBI/2017/page_113.pdf",
+        "score": 0.46670371294021606,
+        "gt": true
+      },
+      {
+        "filename": "WRB/2016/page_159.pdf",
+        "score": 0.31015831232070923,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2016/page_89.pdf",
+        "score": 0.30882972478866577,
+        "gt": false
+      },
+      {
+        "filename": "FLS/2016/page_57.pdf",
+        "score": 0.303897500038147,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "For Microchip Technology's 2015 financial year, what is the average value of the adjustments to reconcile net income to net cash provided by operating activities, including depreciation and amortization, deferred income taxes, and changes in operating assets and liabilities?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MCHP/2015/page_111.pdf"
+    ],
+    "mr_ndcg": 0.3868528072345416,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": 0.24407694633691596,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MCHP/2016/page_117.pdf",
+        "score": 0.44482260942459106,
+        "gt": false
+      },
+      {
+        "filename": "MCHP/2015/page_111.pdf",
+        "score": 0.423122763633728,
+        "gt": true
+      },
+      {
+        "filename": "MCHP/2017/page_146.pdf",
+        "score": 0.4132351875305176,
+        "gt": false
+      },
+      {
+        "filename": "MCHP/2014/page_131.pdf",
+        "score": 0.41273176670074463,
+        "gt": false
+      },
+      {
+        "filename": "MCHP/2013/page_105.pdf",
+        "score": 0.4123769700527191,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of the specified financial obligations for the year 2013, including interest on debt, inventory purchases, operating leases, marketing, defined benefit plans, and other long-term obligations, which contribute to the operating activities?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "HBI/2013/page_39.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "HBI/2013/page_39.pdf",
+        "score": 0.4389660358428955,
+        "gt": true
+      },
+      {
+        "filename": "HBI/2012/page_48.pdf",
+        "score": 0.4036579728126526,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2013/page_104.pdf",
+        "score": 0.3718872368335724,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2015/page_21.pdf",
+        "score": 0.3332488238811493,
+        "gt": false
+      },
+      {
+        "filename": "MSCI/2012/page_93.pdf",
+        "score": 0.33245667815208435,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value among the adjustments (additions for current year, additions for prior years, reductions for prior years, settlements, and expiration of statute of limitations) that impact the balance at the end of the fiscal year for Cardinal Health in 2010?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "CAH/2011/page_87.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "TEXT-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "CAH/2010/page_69.pdf",
+        "score": 0.37738537788391113,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2011/page_87.pdf",
+        "score": 0.37001171708106995,
+        "gt": true
+      },
+      {
+        "filename": "MMC/2010/page_81.pdf",
+        "score": 0.34281212091445923,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2010/page_66.pdf",
+        "score": 0.32627809047698975,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2015/page_64.pdf",
+        "score": 0.32212895154953003,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of the operating expenses, including salaries, wages and benefits, other operating expenses, supplies expense, depreciation and amortization, and lease and rental expense, for Universal Health Services in the year 2011?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "UHS/2013/page_81.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.5,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UHS/2013/page_118.pdf",
+        "score": 0.39754220843315125,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2014/page_122.pdf",
+        "score": 0.3737260699272156,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2013/page_81.pdf",
+        "score": 0.349712073802948,
+        "gt": true
+      },
+      {
+        "filename": "UHS/2013/page_75.pdf",
+        "score": 0.34533926844596863,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2013/page_76.pdf",
+        "score": 0.3410232365131378,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value between definite-lived intangibles and accumulated amortization for Starbucks in the year 2010, which affects the net value of definite-lived intangibles?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "SBUX/2011/page_67.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "SBUX/2011/page_67.pdf",
+        "score": 0.41136297583580017,
+        "gt": true
+      },
+      {
+        "filename": "SBUX/2011/page_49.pdf",
+        "score": 0.32306498289108276,
+        "gt": false
+      },
+      {
+        "filename": "XRAY/2016/page_98.pdf",
+        "score": 0.29325735569000244,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2012/page_66.pdf",
+        "score": 0.2929190397262573,
+        "gt": false
+      },
+      {
+        "filename": "XRAY/2013/page_87.pdf",
+        "score": 0.28783008456230164,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "MR"
+    ],
+    "MR_rerank_top5": [
+      {
+        "filename": "XRAY/2016/page_98.pdf",
+        "score": 30.02499771118164,
+        "gt": false
+      },
+      {
+        "filename": "SBUX/2011/page_49.pdf",
+        "score": 25.07642936706543,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What is the highest earned premium figure for 2014 among direct, assumed, and ceded earned premiums in W. R. Berkley Corporation's 2016 report?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WRB/2016/page_150.pdf"
+    ],
+    "mr_ndcg": 0.0,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": 0.6309297535714575,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WRB/2016/page_175.pdf",
+        "score": 0.4701099991798401,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2013/page_123.pdf",
+        "score": 0.4081227779388428,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2016/page_150.pdf",
+        "score": 0.38311731815338135,
+        "gt": true
+      },
+      {
+        "filename": "WRB/2015/page_101.pdf",
+        "score": 0.353127658367157,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_102.pdf",
+        "score": 0.33684784173965454,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the cumulative value of total current liabilities, long-term debt, long-term unearned revenue, deferred income taxes, and other long-term liabilities for Microsoft in 2013, as reported in the 2014 financial statement?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MSFT/2014/page_44.pdf"
+    ],
+    "mr_ndcg": 0.3868528072345416,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": 0.24407694633691596,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MSCI/2013/page_105.pdf",
+        "score": 0.3753620386123657,
+        "gt": false
+      },
+      {
+        "filename": "MCHP/2014/page_128.pdf",
+        "score": 0.372406005859375,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2014/page_111.pdf",
+        "score": 0.36954277753829956,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2014/page_102.pdf",
+        "score": 0.36065995693206787,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2013/page_107.pdf",
+        "score": 0.359144926071167,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "For Cardinal Health's fiscal year 2009, what is the sum of earnings from continuing operations and earnings from discontinued operations in the fourth quarter, which contributes to the net earnings of $273.2 million?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "CAH/2009/page_132.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "BM25",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "CAH/2010/page_106.pdf",
+        "score": 0.4527212381362915,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2009/page_132.pdf",
+        "score": 0.4425528645515442,
+        "gt": true
+      },
+      {
+        "filename": "CAH/2010/page_69.pdf",
+        "score": 0.41173234581947327,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2007/page_124.pdf",
+        "score": 0.3996916711330414,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2010/page_66.pdf",
+        "score": 0.39922502636909485,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of provision for current year claims and unfavorable (favorable) development related to prior years\u2019 claims for HCA Healthcare in 2010?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "HCA/2012/page_74.pdf"
+    ],
+    "mr_ndcg": 0.5,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.5,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "HCA/2012/page_74.pdf",
+        "score": 0.4365631937980652,
+        "gt": true
+      },
+      {
+        "filename": "HCA/2011/page_71.pdf",
+        "score": 0.4142383635044098,
+        "gt": false
+      },
+      {
+        "filename": "HCA/2014/page_73.pdf",
+        "score": 0.37201640009880066,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_36.pdf",
+        "score": 0.3527994453907013,
+        "gt": false
+      },
+      {
+        "filename": "HCA/2012/page_72.pdf",
+        "score": 0.3523961901664734,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "MR"
+    ],
+    "MR_rerank_top5": [
+      {
+        "filename": "HCA/2012/page_74.pdf",
+        "score": 31.699743270874023,
+        "gt": true
+      },
+      {
+        "filename": "HCA/2011/page_71.pdf",
+        "score": 31.247533798217773,
+        "gt": false
+      },
+      {
+        "filename": "HCA/2014/page_73.pdf",
+        "score": 30.953197479248047,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_36.pdf",
+        "score": 27.42605209350586,
+        "gt": false
+      },
+      {
+        "filename": "HCA/2012/page_72.pdf",
+        "score": 24.64459228515625,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 1.0
+  },
+  {
+    "query": "What is the average value of net income available to common shareholders \u2013 basic and net effect of assumed conversion of debt for Micron Technology in 2005, which contributes to net income available to common shareholders \u2013 diluted?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MU/2006/page_56.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MU/2007/page_60.pdf",
+        "score": 0.4553760886192322,
+        "gt": false
+      },
+      {
+        "filename": "MU/2006/page_56.pdf",
+        "score": 0.43601495027542114,
+        "gt": true
+      },
+      {
+        "filename": "FLIR/2007/page_45.pdf",
+        "score": 0.3749431371688843,
+        "gt": false
+      },
+      {
+        "filename": "A/2005/page_70.pdf",
+        "score": 0.35071808099746704,
+        "gt": false
+      },
+      {
+        "filename": "MU/2007/page_43.pdf",
+        "score": 0.3475215435028076,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average value of tangible assets, amortizable intangible assets, goodwill, and liabilities assumed for the year 2006, as disclosed in DaVita's financial report?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "DVA/2006/page_48.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DVA/2005/page_41.pdf",
+        "score": 0.4296250343322754,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2006/page_48.pdf",
+        "score": 0.42869946360588074,
+        "gt": true
+      },
+      {
+        "filename": "DVA/2009/page_65.pdf",
+        "score": 0.41098713874816895,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2007/page_72.pdf",
+        "score": 0.3848937153816223,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2006/page_66.pdf",
+        "score": 0.3785066604614258,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of Proprietary products and Contract manufacturing for West Pharmaceutical Services in 2012?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WST/2013/page_67.pdf"
+    ],
+    "mr_ndcg": 0.4306765580733931,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": 0.20025319549806442,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WST/2012/page_63.pdf",
+        "score": 0.3501751124858856,
+        "gt": false
+      },
+      {
+        "filename": "WST/2013/page_67.pdf",
+        "score": 0.3319612741470337,
+        "gt": true
+      },
+      {
+        "filename": "WST/2016/page_33.pdf",
+        "score": 0.3056982159614563,
+        "gt": false
+      },
+      {
+        "filename": "WST/2016/page_81.pdf",
+        "score": 0.2964423894882202,
+        "gt": false
+      },
+      {
+        "filename": "WST/2012/page_55.pdf",
+        "score": 0.29197847843170166,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the sum of deposits, long-term borrowings, capital lease obligations, operating leases, interest payments on fixed rate debt, purchase obligations, and other long-term liabilities for Discover Financial that are due between one year and three years as disclosed in the 2009 report?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "DFS/2009/page_96.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.36907024642854247,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DFS/2009/page_96.pdf",
+        "score": 0.4248947203159332,
+        "gt": true
+      },
+      {
+        "filename": "DFS/2010/page_97.pdf",
+        "score": 0.39694684743881226,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2015/page_97.pdf",
+        "score": 0.3382585048675537,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2009/page_100.pdf",
+        "score": 0.3278985917568207,
+        "gt": false
+      },
+      {
+        "filename": "FLIR/2009/page_33.pdf",
+        "score": 0.3230876922607422,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "In the 2003 financial records of American Tower, what percentage of the total net proceeds did the $0.1 million loss on disposal represent when the company sold an office building in Schaumburg, Illinois, in March 2003?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AMT/2005/page_83.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AMT/2005/page_83.pdf",
+        "score": 0.3743892312049866,
+        "gt": true
+      },
+      {
+        "filename": "DRE/2009/page_60.pdf",
+        "score": 0.3032948076725006,
+        "gt": false
+      },
+      {
+        "filename": "DRE/2005/page_30.pdf",
+        "score": 0.29779067635536194,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2003/page_61.pdf",
+        "score": 0.28791147470474243,
+        "gt": false
+      },
+      {
+        "filename": "DRE/2004/page_27.pdf",
+        "score": 0.28588005900382996,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AMT/2005/page_83.pdf",
+        "score": 0.5873587727546692,
+        "gt": true
+      },
+      {
+        "filename": "AMT/2002/page_74.pdf",
+        "score": 0.572863757610321,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2004/page_81.pdf",
+        "score": 0.5479029417037964,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2003/page_92.pdf",
+        "score": 0.5468829870223999,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2005/page_102.pdf",
+        "score": 0.5443886518478394,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0,
+    "MR_rerank_top5": [
+      {
+        "filename": "DRE/2004/page_27.pdf",
+        "score": 34.43627166748047,
+        "gt": false
+      },
+      {
+        "filename": "DRE/2005/page_30.pdf",
+        "score": 32.23089599609375,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What is the total amount spent by General Mills in 2006 to repurchase its common stock, as disclosed in the table detailing issuer purchases of equity securities for the three fiscal months ended May 28, 2006?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "GIS/2006/page_35.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "GIS/2006/page_35.pdf",
+        "score": 0.4496135711669922,
+        "gt": true
+      },
+      {
+        "filename": "GIS/2006/page_43.pdf",
+        "score": 0.4121471047401428,
+        "gt": false
+      },
+      {
+        "filename": "MSI/2006/page_39.pdf",
+        "score": 0.4055364727973938,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2008/page_39.pdf",
+        "score": 0.39951765537261963,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2007/page_39.pdf",
+        "score": 0.39909499883651733,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "GIS/2006/page_43.pdf",
+        "score": 0.6487968564033508,
+        "gt": false
+      },
+      {
+        "filename": "GIS/2006/page_35.pdf",
+        "score": 0.6369056701660156,
+        "gt": true
+      },
+      {
+        "filename": "LMT/2006/page_37.pdf",
+        "score": 0.6233875155448914,
+        "gt": false
+      },
+      {
+        "filename": "RSG/2005/page_26.pdf",
+        "score": 0.6168791651725769,
+        "gt": false
+      },
+      {
+        "filename": "LMT/2012/page_29.pdf",
+        "score": 0.6146379709243774,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What percentage of American Airlines' total planes, as of December 31, 2017, had an average seating capacity of fewer than 100 passengers?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AAL/2017/page_33.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AAL/2017/page_33.pdf",
+        "score": 0.44304072856903076,
+        "gt": true
+      },
+      {
+        "filename": "AAL/2016/page_37.pdf",
+        "score": 0.4139871299266815,
+        "gt": false
+      },
+      {
+        "filename": "AAL/2015/page_131.pdf",
+        "score": 0.2874336838722229,
+        "gt": false
+      },
+      {
+        "filename": "AAL/2015/page_18.pdf",
+        "score": 0.266851544380188,
+        "gt": false
+      },
+      {
+        "filename": "AAL/2014/page_15.pdf",
+        "score": 0.262764036655426,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AAL/2017/page_33.pdf",
+        "score": 0.6899055242538452,
+        "gt": true
+      },
+      {
+        "filename": "AAL/2016/page_37.pdf",
+        "score": 0.6728732585906982,
+        "gt": false
+      },
+      {
+        "filename": "AAL/2014/page_15.pdf",
+        "score": 0.5852065086364746,
+        "gt": false
+      },
+      {
+        "filename": "AAL/2014/page_18.pdf",
+        "score": 0.575799822807312,
+        "gt": false
+      },
+      {
+        "filename": "AAL/2017/page_10.pdf",
+        "score": 0.5756058096885681,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What was the market capitalization of Jack Henry & Associates on August 15, 2019, given that the last sale price of its common shares as reported on NASDAQ was $141.94 per share and there were approximately 145,300 holders of the company's common stock?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "JKHY/2019/page_17.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "JKHY/2019/page_17.pdf",
+        "score": 0.35673442482948303,
+        "gt": true
+      },
+      {
+        "filename": "EXR/2005/page_46.pdf",
+        "score": 0.3031051456928253,
+        "gt": false
+      },
+      {
+        "filename": "ADI/2019/page_29.pdf",
+        "score": 0.2923685610294342,
+        "gt": false
+      },
+      {
+        "filename": "MKTX/2004/page_24.pdf",
+        "score": 0.2829030454158783,
+        "gt": false
+      },
+      {
+        "filename": "MKTX/2005/page_40.pdf",
+        "score": 0.2815248370170593,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "JKHY/2019/page_17.pdf",
+        "score": 0.6711040139198303,
+        "gt": true
+      },
+      {
+        "filename": "JKHY/2019/page_18.pdf",
+        "score": 0.6043325066566467,
+        "gt": false
+      },
+      {
+        "filename": "JKHY/2018/page_16.pdf",
+        "score": 0.5877770185470581,
+        "gt": false
+      },
+      {
+        "filename": "JKHY/2016/page_25.pdf",
+        "score": 0.5847664475440979,
+        "gt": false
+      },
+      {
+        "filename": "JKHY/2014/page_30.pdf",
+        "score": 0.5768253207206726,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "Over the six-year period starting from September 30, 2008, and ending on September 30, 2013, by how much did Apple Inc.'s cumulative total shareholder return, calculated on a dividend-reinvested basis, outperform the S&P Computer Hardware Index, considering the initial $100 investment?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AAPL/2013/page_27.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AAPL/2008/page_38.pdf",
+        "score": 0.5677401423454285,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2013/page_27.pdf",
+        "score": 0.5560341477394104,
+        "gt": true
+      },
+      {
+        "filename": "AAPL/2012/page_24.pdf",
+        "score": 0.5518372058868408,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2011/page_24.pdf",
+        "score": 0.5477371215820312,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2014/page_26.pdf",
+        "score": 0.5130330324172974,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AAPL/2011/page_24.pdf",
+        "score": 0.7464566230773926,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2012/page_24.pdf",
+        "score": 0.7370384931564331,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2008/page_38.pdf",
+        "score": 0.7207376956939697,
+        "gt": false
+      },
+      {
+        "filename": "AAPL/2013/page_27.pdf",
+        "score": 0.7185104489326477,
+        "gt": true
+      },
+      {
+        "filename": "AAPL/2014/page_26.pdf",
+        "score": 0.7020577192306519,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.43067655807339306
+  },
+  {
+    "query": "What was the percentage increase in Marathon Oil's proved undeveloped reserves from the beginning of 2012 to the end of that year, as reported in the company's 2012 annual report on Form 10-K?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "MRO/2012/page_22.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MRO/2012/page_22.pdf",
+        "score": 0.4189718961715698,
+        "gt": true
+      },
+      {
+        "filename": "MRO/2013/page_23.pdf",
+        "score": 0.4102359414100647,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2014/page_22.pdf",
+        "score": 0.3864169716835022,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2011/page_21.pdf",
+        "score": 0.3785165250301361,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2015/page_22.pdf",
+        "score": 0.3775481581687927,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "MRO/2012/page_22.pdf",
+        "score": 0.6590583324432373,
+        "gt": true
+      },
+      {
+        "filename": "MRO/2011/page_21.pdf",
+        "score": 0.6509108543395996,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2017/page_111.pdf",
+        "score": 0.6362926363945007,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2011/page_39.pdf",
+        "score": 0.6343400478363037,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2015/page_22.pdf",
+        "score": 0.632827877998352,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "By what percentage did the fair value of Marathon Oil's stock-based performance units outstanding decrease from the $21.51 value in 2016 to the $19.60 value in 2018?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "MRO/2018/page_93.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MRO/2018/page_93.pdf",
+        "score": 0.43930888175964355,
+        "gt": true
+      },
+      {
+        "filename": "MRO/2008/page_142.pdf",
+        "score": 0.30049821734428406,
+        "gt": false
+      },
+      {
+        "filename": "LLY/2018/page_75.pdf",
+        "score": 0.29509782791137695,
+        "gt": false
+      },
+      {
+        "filename": "HFC/2011/page_92.pdf",
+        "score": 0.28932103514671326,
+        "gt": false
+      },
+      {
+        "filename": "GPN/2018/page_94.pdf",
+        "score": 0.28841954469680786,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "MRO/2018/page_93.pdf",
+        "score": 0.6756150722503662,
+        "gt": true
+      },
+      {
+        "filename": "MRO/2007/page_136.pdf",
+        "score": 0.6225707530975342,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2008/page_142.pdf",
+        "score": 0.6046878695487976,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2007/page_134.pdf",
+        "score": 0.5995913743972778,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2009/page_137.pdf",
+        "score": 0.5990093946456909,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What was the average annual thrift plan contribution made by Union Pacific Corporation to its defined contribution plan for non-union employees from 2006 to 2008, in millions of dollars?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2008/page_71.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2008/page_71.pdf",
+        "score": 0.39684462547302246,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2009/page_65.pdf",
+        "score": 0.3498716652393341,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2008/page_26.pdf",
+        "score": 0.31609809398651123,
+        "gt": false
+      },
+      {
+        "filename": "MA/2008/page_113.pdf",
+        "score": 0.30375391244888306,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2007/page_25.pdf",
+        "score": 0.2957603335380554,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2008/page_71.pdf",
+        "score": 0.6271957159042358,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2009/page_68.pdf",
+        "score": 0.5947365760803223,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2007/page_79.pdf",
+        "score": 0.5743969082832336,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2007/page_22.pdf",
+        "score": 0.5743889808654785,
+        "gt": false
+      },
+      {
+        "filename": "GIS/2008/page_83.pdf",
+        "score": 0.5741263031959534,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What percentage of the remaining authorization to repurchase Masco's common stock, as authorized by the board of directors in July 2007, was available at December 31, 2010?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "MAS/2010/page_29.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MAS/2010/page_29.pdf",
+        "score": 0.4646030068397522,
+        "gt": true
+      },
+      {
+        "filename": "MAS/2012/page_26.pdf",
+        "score": 0.452602744102478,
+        "gt": false
+      },
+      {
+        "filename": "MAS/2013/page_27.pdf",
+        "score": 0.44207435846328735,
+        "gt": false
+      },
+      {
+        "filename": "PKG/2009/page_63.pdf",
+        "score": 0.3682941794395447,
+        "gt": false
+      },
+      {
+        "filename": "MAS/2010/page_86.pdf",
+        "score": 0.35655677318573,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "MAS/2010/page_29.pdf",
+        "score": 0.6610256433486938,
+        "gt": true
+      },
+      {
+        "filename": "MAS/2012/page_26.pdf",
+        "score": 0.6441968679428101,
+        "gt": false
+      },
+      {
+        "filename": "MAS/2013/page_27.pdf",
+        "score": 0.634660005569458,
+        "gt": false
+      },
+      {
+        "filename": "MAS/2010/page_86.pdf",
+        "score": 0.6033735275268555,
+        "gt": false
+      },
+      {
+        "filename": "AMT/2010/page_36.pdf",
+        "score": 0.5616784691810608,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "How much higher was the U.S. Gulf Coast crack spread than the Chicago crack spread in the first quarter of 2008, based on Marathon Oil's refining and wholesale marketing operations?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "MRO/2008/page_70.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MRO/2008/page_70.pdf",
+        "score": 0.4676086902618408,
+        "gt": true
+      },
+      {
+        "filename": "MRO/2009/page_58.pdf",
+        "score": 0.4039294421672821,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2008/page_69.pdf",
+        "score": 0.34218156337738037,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2003/page_84.pdf",
+        "score": 0.2698688209056854,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2009/page_57.pdf",
+        "score": 0.2663668394088745,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "MRO/2009/page_58.pdf",
+        "score": 0.6427247524261475,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2008/page_70.pdf",
+        "score": 0.6303430795669556,
+        "gt": true
+      },
+      {
+        "filename": "MRO/2006/page_33.pdf",
+        "score": 0.6102763414382935,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2009/page_32.pdf",
+        "score": 0.599002480506897,
+        "gt": false
+      },
+      {
+        "filename": "MRO/2007/page_41.pdf",
+        "score": 0.586421012878418,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What percentage of Union Pacific Corporation's total operating expenses in 2008 was attributed to compensation and benefits, as reflected in the company's 2010 report?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2010/page_30.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2009/page_31.pdf",
+        "score": 0.4056982398033142,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2010/page_30.pdf",
+        "score": 0.3986057937145233,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2008/page_32.pdf",
+        "score": 0.38608258962631226,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2009/page_61.pdf",
+        "score": 0.3825858235359192,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2008/page_59.pdf",
+        "score": 0.37312161922454834,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2008/page_32.pdf",
+        "score": 0.6732777953147888,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2010/page_30.pdf",
+        "score": 0.6486260890960693,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2009/page_31.pdf",
+        "score": 0.6454986333847046,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2013/page_29.pdf",
+        "score": 0.6251704096794128,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2008/page_71.pdf",
+        "score": 0.6246150732040405,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What is the percentage decrease in the gross accrued interest for Cadence Design Systems from December 31, 2006, to December 29, 2007?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "CDNS/2007/page_93.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "CDNS/2007/page_93.pdf",
+        "score": 0.42870402336120605,
+        "gt": true
+      },
+      {
+        "filename": "CDNS/2006/page_30.pdf",
+        "score": 0.29889562726020813,
+        "gt": false
+      },
+      {
+        "filename": "SNA/2007/page_80.pdf",
+        "score": 0.27342653274536133,
+        "gt": false
+      },
+      {
+        "filename": "RSG/2009/page_137.pdf",
+        "score": 0.27320435643196106,
+        "gt": false
+      },
+      {
+        "filename": "AAP/2007/page_83.pdf",
+        "score": 0.270701140165329,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "CDNS/2007/page_93.pdf",
+        "score": 0.5933404564857483,
+        "gt": true
+      },
+      {
+        "filename": "JPM/2010/page_236.pdf",
+        "score": 0.540188193321228,
+        "gt": false
+      },
+      {
+        "filename": "CDNS/2006/page_30.pdf",
+        "score": 0.5363897085189819,
+        "gt": false
+      },
+      {
+        "filename": "SNPS/2009/page_39.pdf",
+        "score": 0.5213980078697205,
+        "gt": false
+      },
+      {
+        "filename": "CDNS/2007/page_30.pdf",
+        "score": 0.5174425840377808,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What was the total carrying value of the facilities funded by American Water Works and recognized as a capital lease asset for the years ended December 31, 2018 and 2017, in millions?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AWK/2018/page_178.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AWK/2018/page_178.pdf",
+        "score": 0.3163253962993622,
+        "gt": true
+      },
+      {
+        "filename": "UPS/2017/page_111.pdf",
+        "score": 0.31538745760917664,
+        "gt": false
+      },
+      {
+        "filename": "AAL/2015/page_131.pdf",
+        "score": 0.30360013246536255,
+        "gt": false
+      },
+      {
+        "filename": "HST/2017/page_142.pdf",
+        "score": 0.2934419810771942,
+        "gt": false
+      },
+      {
+        "filename": "ALXN/2016/page_153.pdf",
+        "score": 0.2914971709251404,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AWK/2018/page_98.pdf",
+        "score": 0.6282680034637451,
+        "gt": false
+      },
+      {
+        "filename": "AWK/2018/page_178.pdf",
+        "score": 0.6267908811569214,
+        "gt": true
+      },
+      {
+        "filename": "AWK/2018/page_162.pdf",
+        "score": 0.6142288446426392,
+        "gt": false
+      },
+      {
+        "filename": "AWK/2018/page_172.pdf",
+        "score": 0.6105735301971436,
+        "gt": false
+      },
+      {
+        "filename": "AWK/2015/page_141.pdf",
+        "score": 0.6078677773475647,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What was the percentage increase in equipment rents payable for Union Pacific Corporation from 2011 to 2012, as reflected in the company's accounts payable and other current liabilities for those years?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "UNP/2012/page_74.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "UNP/2013/page_73.pdf",
+        "score": 0.3894428014755249,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_74.pdf",
+        "score": 0.3875882029533386,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2014/page_75.pdf",
+        "score": 0.3693227171897888,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2011/page_76.pdf",
+        "score": 0.36067694425582886,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2015/page_76.pdf",
+        "score": 0.3162006735801697,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "UNP/2012/page_74.pdf",
+        "score": 0.6430565118789673,
+        "gt": true
+      },
+      {
+        "filename": "UNP/2013/page_73.pdf",
+        "score": 0.6199288964271545,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2014/page_75.pdf",
+        "score": 0.6040033102035522,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2012/page_30.pdf",
+        "score": 0.5988721251487732,
+        "gt": false
+      },
+      {
+        "filename": "UNP/2009/page_83.pdf",
+        "score": 0.5978333950042725,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "Did Credit Suisse Securities (USA) account for a greater percentage of SL Green Realty Corp.'s share of annualized cash rent than the largest other property, which contributed 7.4% of the annualized cash rent, as of December 31, 2018?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "SLG/2018/page_45.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "SLG/2018/page_45.pdf",
+        "score": 0.34204187989234924,
+        "gt": true
+      },
+      {
+        "filename": "VNO/2003/page_102.pdf",
+        "score": 0.2734747529029846,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2010/page_90.pdf",
+        "score": 0.27330100536346436,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2010/page_81.pdf",
+        "score": 0.27274709939956665,
+        "gt": false
+      },
+      {
+        "filename": "VNO/2012/page_190.pdf",
+        "score": 0.2508606016635895,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "SLG/2018/page_45.pdf",
+        "score": 0.6446918249130249,
+        "gt": true
+      },
+      {
+        "filename": "SLG/2009/page_99.pdf",
+        "score": 0.5999230146408081,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2010/page_90.pdf",
+        "score": 0.586391031742096,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2017/page_110.pdf",
+        "score": 0.5812832117080688,
+        "gt": false
+      },
+      {
+        "filename": "SLG/2017/page_61.pdf",
+        "score": 0.5725824236869812,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What was the change in the future annual commitments related to minimum quantities of purchased water between 2019 and 2020 for American Water Works?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "AWK/2018/page_172.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AWK/2018/page_172.pdf",
+        "score": 0.32437020540237427,
+        "gt": true
+      },
+      {
+        "filename": "AWK/2018/page_178.pdf",
+        "score": 0.2799319922924042,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2017/page_143.pdf",
+        "score": 0.2412213385105133,
+        "gt": false
+      },
+      {
+        "filename": "AES/2002/page_128.pdf",
+        "score": 0.23895609378814697,
+        "gt": false
+      },
+      {
+        "filename": "LKQ/2010/page_84.pdf",
+        "score": 0.23537075519561768,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "AWK/2018/page_178.pdf",
+        "score": 0.5919981002807617,
+        "gt": false
+      },
+      {
+        "filename": "AWK/2018/page_172.pdf",
+        "score": 0.5798275470733643,
+        "gt": true
+      },
+      {
+        "filename": "AWK/2018/page_98.pdf",
+        "score": 0.5405081510543823,
+        "gt": false
+      },
+      {
+        "filename": "WRK/2019/page_51.pdf",
+        "score": 0.5338095426559448,
+        "gt": false
+      },
+      {
+        "filename": "IQV/2018/page_59.pdf",
+        "score": 0.5246821641921997,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What is the average value of interest expense net for International Paper Company over the three-year period from 2007 to 2009, as reported in the company's 2009 financial report?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "IP/2009/page_25.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "IP/2009/page_25.pdf",
+        "score": 0.48749247193336487,
+        "gt": true
+      },
+      {
+        "filename": "IP/2007/page_19.pdf",
+        "score": 0.39866697788238525,
+        "gt": false
+      },
+      {
+        "filename": "IP/2009/page_72.pdf",
+        "score": 0.3900811970233917,
+        "gt": false
+      },
+      {
+        "filename": "IP/2009/page_34.pdf",
+        "score": 0.37387752532958984,
+        "gt": false
+      },
+      {
+        "filename": "IP/2009/page_78.pdf",
+        "score": 0.36120325326919556,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD",
+      "MR"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "IP/2013/page_70.pdf",
+        "score": 0.6699913740158081,
+        "gt": false
+      },
+      {
+        "filename": "IP/2009/page_25.pdf",
+        "score": 0.6596613526344299,
+        "gt": true
+      },
+      {
+        "filename": "IP/2009/page_45.pdf",
+        "score": 0.6555112600326538,
+        "gt": false
+      },
+      {
+        "filename": "IP/2014/page_71.pdf",
+        "score": 0.648607075214386,
+        "gt": false
+      },
+      {
+        "filename": "IP/2007/page_19.pdf",
+        "score": 0.6387563943862915,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.6309297535714575,
+    "MR_rerank_top5": [
+      {
+        "filename": "IP/2009/page_78.pdf",
+        "score": 34.944252014160156,
+        "gt": false
+      },
+      {
+        "filename": "IP/2009/page_72.pdf",
+        "score": 34.816184997558594,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.0
+  },
+  {
+    "query": "What percentage of Visa Inc.'s total future principal payments, amounting to $108 million, is scheduled to be paid in 2009?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "V/2008/page_149.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "V/2008/page_149.pdf",
+        "score": 0.4544132947921753,
+        "gt": true
+      },
+      {
+        "filename": "V/2008/page_180.pdf",
+        "score": 0.34456494450569153,
+        "gt": false
+      },
+      {
+        "filename": "ETFC/2007/page_126.pdf",
+        "score": 0.31587517261505127,
+        "gt": false
+      },
+      {
+        "filename": "V/2010/page_28.pdf",
+        "score": 0.3082045316696167,
+        "gt": false
+      },
+      {
+        "filename": "HOLX/2007/page_133.pdf",
+        "score": 0.30205029249191284,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "V/2008/page_149.pdf",
+        "score": 0.6818618178367615,
+        "gt": true
+      },
+      {
+        "filename": "V/2008/page_180.pdf",
+        "score": 0.6089233160018921,
+        "gt": false
+      },
+      {
+        "filename": "MA/2008/page_125.pdf",
+        "score": 0.591610312461853,
+        "gt": false
+      },
+      {
+        "filename": "V/2010/page_28.pdf",
+        "score": 0.5755751132965088,
+        "gt": false
+      },
+      {
+        "filename": "AON/2007/page_185.pdf",
+        "score": 0.5736511945724487,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What was the year-over-year change in the additional litigation reserves, in billions, for JPMorgan Chase in 2011 compared to 2010?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "JPM/2012/page_93.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "JPM/2012/page_93.pdf",
+        "score": 0.33091044425964355,
+        "gt": true
+      },
+      {
+        "filename": "JPM/2015/page_77.pdf",
+        "score": 0.31045109033584595,
+        "gt": false
+      },
+      {
+        "filename": "PNC/2011/page_44.pdf",
+        "score": 0.3101446032524109,
+        "gt": false
+      },
+      {
+        "filename": "GS/2012/page_89.pdf",
+        "score": 0.3092869520187378,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2014/page_65.pdf",
+        "score": 0.30644991993904114,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "JPM/2010/page_59.pdf",
+        "score": 0.5661797523498535,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2010/page_273.pdf",
+        "score": 0.560604989528656,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2003/page_28.pdf",
+        "score": 0.543540358543396,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2012/page_110.pdf",
+        "score": 0.5355395078659058,
+        "gt": false
+      },
+      {
+        "filename": "JPM/2009/page_55.pdf",
+        "score": 0.5347237586975098,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 0.0
+  },
+  {
+    "query": "As of January 31, 2009, what percentage of ONEOK's total employees are members of the International Brotherhood of Electrical Workers union?",
+    "dataset": "finqa",
+    "gt_pages": [
+      "OKE/2008/page_38.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "OKE/2008/page_38.pdf",
+        "score": 0.3888934850692749,
+        "gt": true
+      },
+      {
+        "filename": "OKE/2012/page_52.pdf",
+        "score": 0.28659820556640625,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2003/page_157.pdf",
+        "score": 0.2713863253593445,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2008/page_249.pdf",
+        "score": 0.2681022882461548,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2011/page_250.pdf",
+        "score": 0.26419058442115784,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD",
+      "TD"
+    ],
+    "TD_dense_top5": [
+      {
+        "filename": "OKE/2008/page_38.pdf",
+        "score": 0.6795400977134705,
+        "gt": true
+      },
+      {
+        "filename": "OKE/2012/page_52.pdf",
+        "score": 0.6632053256034851,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2003/page_157.pdf",
+        "score": 0.5560156106948853,
+        "gt": false
+      },
+      {
+        "filename": "OKE/2007/page_56.pdf",
+        "score": 0.5292189121246338,
+        "gt": false
+      },
+      {
+        "filename": "ETR/2008/page_249.pdf",
+        "score": 0.523068904876709,
+        "gt": false
+      }
+    ],
+    "TD_dense_ndcg5": 1.0
+  },
+  {
+    "query": "What is the maximum value among the balance beginning of period, realized losses related to amortization of premium, unrealized gains included in accumulated other comprehensive income, realized losses related to investment impairments, sales, transfers into level 3, and transfers out of level 3 for Agilent Technologies in 2009?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "A/2010/page_85.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "A/2010/page_85.pdf",
+        "score": 0.5252343416213989,
+        "gt": true
+      },
+      {
+        "filename": "A/2009/page_82.pdf",
+        "score": 0.5088683366775513,
+        "gt": false
+      },
+      {
+        "filename": "A/2010/page_94.pdf",
+        "score": 0.37168270349502563,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2010/page_153.pdf",
+        "score": 0.3450814187526703,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2011/page_160.pdf",
+        "score": 0.3307986259460449,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the cumulative value of nonvested PSUs as of January 1, 2017, PSUs granted, PSUs vested, and PSUs forfeited, that contribute to the total nonvested PSUs as of December 31, 2017, for Baxter International's share units?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "BAX/2017/page_90.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "BAX/2017/page_90.pdf",
+        "score": 0.44453105330467224,
+        "gt": true
+      },
+      {
+        "filename": "BAX/2017/page_89.pdf",
+        "score": 0.4408950209617615,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2014/page_88.pdf",
+        "score": 0.39750155806541443,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2013/page_86.pdf",
+        "score": 0.3969195485115051,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2013/page_85.pdf",
+        "score": 0.3885674476623535,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average value of deposits, borrowings, operating leases, interest payments on fixed-rate debt, purchase obligations, and other liabilities that Discover Financial is contractually obligated to pay between 1-3 years, as disclosed in their 2017 financial report?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "DFS/2017/page_94.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DFS/2015/page_97.pdf",
+        "score": 0.4296797811985016,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2017/page_94.pdf",
+        "score": 0.42292967438697815,
+        "gt": true
+      },
+      {
+        "filename": "DFS/2016/page_97.pdf",
+        "score": 0.40412500500679016,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2010/page_97.pdf",
+        "score": 0.3509586453437805,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2014/page_39.pdf",
+        "score": 0.33878594636917114,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value between income from continuing operations and income from discontinued operations, net of tax, for Baxter International in 2013?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "BAX/2014/page_21.pdf"
+    ],
+    "mr_ndcg": 0.6309297535714575,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 0.6309297535714575,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "BAX/2016/page_19.pdf",
+        "score": 0.36688610911369324,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2013/page_52.pdf",
+        "score": 0.3441588878631592,
+        "gt": false
+      },
+      {
+        "filename": "BAX/2014/page_21.pdf",
+        "score": 0.34325018525123596,
+        "gt": true
+      },
+      {
+        "filename": "BAX/2017/page_68.pdf",
+        "score": 0.34135931730270386,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2013/page_38.pdf",
+        "score": 0.33813196420669556,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.5,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average value of the decrease in prior year loss reserves and the increase in prior year earned premiums for W. R. Berkley Corporation in 2015, which together contribute to the net favorable prior year development that year?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WRB/2016/page_95.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WRB/2015/page_56.pdf",
+        "score": 0.45911547541618347,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2016/page_95.pdf",
+        "score": 0.4235098659992218,
+        "gt": true
+      },
+      {
+        "filename": "WRB/2013/page_55.pdf",
+        "score": 0.36487749218940735,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_59.pdf",
+        "score": 0.33222657442092896,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2015/page_79.pdf",
+        "score": 0.32559794187545776,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD",
+      "MR"
+    ],
+    "MR_rerank_top5": [
+      {
+        "filename": "WRB/2015/page_56.pdf",
+        "score": 39.79090881347656,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2016/page_95.pdf",
+        "score": 39.228267669677734,
+        "gt": true
+      },
+      {
+        "filename": "WRB/2013/page_55.pdf",
+        "score": 38.42446517944336,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2012/page_59.pdf",
+        "score": 31.738645553588867,
+        "gt": false
+      }
+    ],
+    "MR_rerank_ndcg5": 0.6309297535714575
+  },
+  {
+    "query": "What is the average face value of the senior notes due on February 15, 2013, May 15, 2015, August 15, 2019, September 15, 2019, September 15, 2020, January 1, 2022, March 15, 2022, and February 15, 2037, as well as the subsidiary debt, as reported in the 2012 financial report of W. R. Berkley Corporation?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WRB/2012/page_103.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WRB/2012/page_103.pdf",
+        "score": 0.4177882671356201,
+        "gt": true
+      },
+      {
+        "filename": "WRB/2012/page_83.pdf",
+        "score": 0.32452133297920227,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2013/page_77.pdf",
+        "score": 0.317020058631897,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2015/page_79.pdf",
+        "score": 0.3101574182510376,
+        "gt": false
+      },
+      {
+        "filename": "WRB/2015/page_124.pdf",
+        "score": 0.296532541513443,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average value of the payments due in less than 1 year for long-term debt, interest on long-term debt, operating leases, licensing rights, and post-retirement obligations in the 2009 report?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "FLIR/2009/page_33.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "FLIR/2009/page_33.pdf",
+        "score": 0.4550781846046448,
+        "gt": true
+      },
+      {
+        "filename": "MCO/2009/page_70.pdf",
+        "score": 0.4092835485935211,
+        "gt": false
+      },
+      {
+        "filename": "DFS/2009/page_96.pdf",
+        "score": 0.37060463428497314,
+        "gt": false
+      },
+      {
+        "filename": "WST/2008/page_41.pdf",
+        "score": 0.3585616946220398,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2010/page_25.pdf",
+        "score": 0.33564770221710205,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "In Pinnacle West's 2012 financial report, what is the median value of the beginning balance, deferred fuel and purchased power costs for the current period, and amounts credited to customers, which ultimately contribute to the ending balance for that year?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "PNW/2012/page_122.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "PNW/2013/page_122.pdf",
+        "score": 0.4597947597503662,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2012/page_122.pdf",
+        "score": 0.4553472399711609,
+        "gt": true
+      },
+      {
+        "filename": "PNW/2012/page_108.pdf",
+        "score": 0.3306484818458557,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2011/page_106.pdf",
+        "score": 0.31427907943725586,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2013/page_107.pdf",
+        "score": 0.3131245970726013,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average of income from continuing operations and income (loss) from discontinued operations, net of tax for the fourth quarter of 2007 for IDEX Corporation?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "IEX/2008/page_75.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "IEX/2008/page_75.pdf",
+        "score": 0.4654172658920288,
+        "gt": true
+      },
+      {
+        "filename": "AIV/2008/page_102.pdf",
+        "score": 0.35910719633102417,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2007/page_124.pdf",
+        "score": 0.35600876808166504,
+        "gt": false
+      },
+      {
+        "filename": "AIV/2008/page_101.pdf",
+        "score": 0.34793078899383545,
+        "gt": false
+      },
+      {
+        "filename": "TAP/2008/page_168.pdf",
+        "score": 0.3393625020980835,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of translation adjustments and unrealized gain on derivatives that contribute to the total other comprehensive loss income for the year ended December 31, 2015?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "IPGP/2015/page_63.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "IPGP/2015/page_63.pdf",
+        "score": 0.4250216484069824,
+        "gt": true
+      },
+      {
+        "filename": "IPGP/2016/page_65.pdf",
+        "score": 0.4121699929237366,
+        "gt": false
+      },
+      {
+        "filename": "IPGP/2017/page_67.pdf",
+        "score": 0.3947281241416931,
+        "gt": false
+      },
+      {
+        "filename": "XRAY/2016/page_88.pdf",
+        "score": 0.38212740421295166,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2015/page_152.pdf",
+        "score": 0.37641194462776184,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "In the 2013 financial report, what is the median value of the property net operating income for Conventional Same Store and Other Conventional, which contribute to the total property net operating income change?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "AIV/2013/page_35.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "AIV/2013/page_35.pdf",
+        "score": 0.47037965059280396,
+        "gt": true
+      },
+      {
+        "filename": "AIV/2013/page_36.pdf",
+        "score": 0.4265991151332855,
+        "gt": false
+      },
+      {
+        "filename": "AIV/2013/page_37.pdf",
+        "score": 0.40733158588409424,
+        "gt": false
+      },
+      {
+        "filename": "AIV/2016/page_40.pdf",
+        "score": 0.4020644426345825,
+        "gt": false
+      },
+      {
+        "filename": "AIV/2012/page_36.pdf",
+        "score": 0.3837611675262451,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the maximum value among the Total unrecognized tax benefits, January 1, Additions for tax positions of the current year, Additions for tax positions of prior years, and Changes in judgment that contribute to the Total unrecognized tax benefits, December 31 for the year 2013 in Pinnacle West's 2014 report?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "PNW/2014/page_120.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "TEXT_RERANK",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "PNW/2014/page_177.pdf",
+        "score": 0.475830614566803,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2014/page_120.pdf",
+        "score": 0.4676874876022339,
+        "gt": true
+      },
+      {
+        "filename": "PNW/2012/page_127.pdf",
+        "score": 0.4280517101287842,
+        "gt": false
+      },
+      {
+        "filename": "PNW/2012/page_190.pdf",
+        "score": 0.4234282672405243,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2013/page_81.pdf",
+        "score": 0.40658342838287354,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 0.6309297535714575,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of product sales and service sales for Waters Corporation in the year 2010, in thousands of dollars?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "WAT/2011/page_45.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "WAT/2011/page_45.pdf",
+        "score": 0.4273686408996582,
+        "gt": true
+      },
+      {
+        "filename": "WAT/2012/page_47.pdf",
+        "score": 0.4231511950492859,
+        "gt": false
+      },
+      {
+        "filename": "WAT/2014/page_49.pdf",
+        "score": 0.38901805877685547,
+        "gt": false
+      },
+      {
+        "filename": "WAT/2016/page_54.pdf",
+        "score": 0.3667849898338318,
+        "gt": false
+      },
+      {
+        "filename": "WAT/2015/page_53.pdf",
+        "score": 0.3659670650959015,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the maximum value between external customers and intersegment sales for Fluid & Metering Technologies in the 2008 financial report of IDEX Corporation?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "IEX/2008/page_62.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "IEX/2008/page_62.pdf",
+        "score": 0.4493190348148346,
+        "gt": true
+      },
+      {
+        "filename": "IEX/2008/page_52.pdf",
+        "score": 0.3952873647212982,
+        "gt": false
+      },
+      {
+        "filename": "IEX/2008/page_75.pdf",
+        "score": 0.2974393367767334,
+        "gt": false
+      },
+      {
+        "filename": "IEX/2009/page_61.pdf",
+        "score": 0.2897929251194,
+        "gt": false
+      },
+      {
+        "filename": "WMB/2008/page_149.pdf",
+        "score": 0.2868296802043915,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the minimum value between weighted average shares outstanding and vested stock units that contribute to the weighted average shares for basic earnings per share calculation in DaVita's 2005 financial report?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "DVA/2007/page_62.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "DVA/2007/page_62.pdf",
+        "score": 0.4156312942504883,
+        "gt": true
+      },
+      {
+        "filename": "DVA/2006/page_46.pdf",
+        "score": 0.3532705307006836,
+        "gt": false
+      },
+      {
+        "filename": "UHS/2007/page_104.pdf",
+        "score": 0.33175572752952576,
+        "gt": false
+      },
+      {
+        "filename": "REG/2006/page_80.pdf",
+        "score": 0.3280208110809326,
+        "gt": false
+      },
+      {
+        "filename": "VAR/2007/page_93.pdf",
+        "score": 0.31776344776153564,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of the financial items, specifically interest income, interest expense, foreign exchange gains, realized gains on sale of investments, and other interest income and net, for KLA Corporation in the year 2004?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "KLAC/2006/page_84.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "KLAC/2006/page_84.pdf",
+        "score": 0.43825802206993103,
+        "gt": true
+      },
+      {
+        "filename": "KLAC/2008/page_70.pdf",
+        "score": 0.38167572021484375,
+        "gt": false
+      },
+      {
+        "filename": "KLAC/2015/page_94.pdf",
+        "score": 0.3522070646286011,
+        "gt": false
+      },
+      {
+        "filename": "KLAC/2006/page_106.pdf",
+        "score": 0.34415122866630554,
+        "gt": false
+      },
+      {
+        "filename": "KLAC/2008/page_58.pdf",
+        "score": 0.3389868140220642,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the median value of notes payable, acquired lease intangible liabilities net, other liabilities, capital - regency, and capital - third parties for Regency Centers in 2009?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "REG/2010/page_110.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "REG/2010/page_110.pdf",
+        "score": 0.46481162309646606,
+        "gt": true
+      },
+      {
+        "filename": "REG/2010/page_86.pdf",
+        "score": 0.3519492447376251,
+        "gt": false
+      },
+      {
+        "filename": "REG/2006/page_73.pdf",
+        "score": 0.34933316707611084,
+        "gt": false
+      },
+      {
+        "filename": "REG/2010/page_46.pdf",
+        "score": 0.28173792362213135,
+        "gt": false
+      },
+      {
+        "filename": "REG/2009/page_29.pdf",
+        "score": 0.27926087379455566,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the average value of cash and cash equivalents, short-term investments, trade accounts receivable net, inventories, deferred income taxes, and other current assets for the fiscal year ending April 3, 2009?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "NLOK/2010/page_135.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "NLOK/2010/page_135.pdf",
+        "score": 0.3483167886734009,
+        "gt": true
+      },
+      {
+        "filename": "XLNX/2009/page_63.pdf",
+        "score": 0.32107511162757874,
+        "gt": false
+      },
+      {
+        "filename": "NLOK/2009/page_156.pdf",
+        "score": 0.3122122287750244,
+        "gt": false
+      },
+      {
+        "filename": "CAH/2009/page_55.pdf",
+        "score": 0.31035059690475464,
+        "gt": false
+      },
+      {
+        "filename": "EA/2010/page_163.pdf",
+        "score": 0.30559706687927246,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "What is the maximum value among net income, depreciation of fixed assets and capitalized software, amortization of intangible assets, provision benefit for deferred income taxes, net gains losses on investments, disposition of assets, adoption of SFAS 123R, net receivables, other current assets, other assets, accounts payable and accrued liabilities, accrued compensation and employee benefits, accrued income taxes, other liabilities, effect of exchange rate changes that contributed towards net cash provided by operations for Marsh McLennan in 2005?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "MMC/2006/page_47.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "MMC/2006/page_47.pdf",
+        "score": 0.47741925716400146,
+        "gt": true
+      },
+      {
+        "filename": "MMC/2005/page_37.pdf",
+        "score": 0.47668159008026123,
+        "gt": false
+      },
+      {
+        "filename": "MMC/2015/page_68.pdf",
+        "score": 0.3765106797218323,
+        "gt": false
+      },
+      {
+        "filename": "DVA/2007/page_34.pdf",
+        "score": 0.3709566593170166,
+        "gt": false
+      },
+      {
+        "filename": "EA/2007/page_140.pdf",
+        "score": 0.3672597408294678,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  },
+  {
+    "query": "For the year 2016, what is the median value of income from continuing operations and income from discontinued operations net of tax for the third quarter?",
+    "dataset": "vqaonbd",
+    "gt_pages": [
+      "HBI/2016/page_114.pdf"
+    ],
+    "mr_ndcg": 1.0,
+    "best_nonmr_arm": "MULTIMODAL-SINGLE",
+    "best_nonmr_ndcg": 1.0,
+    "delta": 0.0,
+    "stratum": "tie",
+    "MD_dense_top5": [
+      {
+        "filename": "HBI/2016/page_114.pdf",
+        "score": 0.41766899824142456,
+        "gt": true
+      },
+      {
+        "filename": "MSCI/2017/page_150.pdf",
+        "score": 0.33519190549850464,
+        "gt": false
+      },
+      {
+        "filename": "REG/2017/page_141.pdf",
+        "score": 0.33153828978538513,
+        "gt": false
+      },
+      {
+        "filename": "MCHP/2017/page_192.pdf",
+        "score": 0.3299682140350342,
+        "gt": false
+      },
+      {
+        "filename": "HBI/2016/page_34.pdf",
+        "score": 0.326772540807724,
+        "gt": false
+      }
+    ],
+    "MD_dense_ndcg5": 1.0,
+    "arms_with_evidence": [
+      "MD"
+    ]
+  }
+]

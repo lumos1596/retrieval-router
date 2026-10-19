@@ -1,0 +1,74 @@
+{
+  "source_test": {
+    "set": "source_test",
+    "n_queries": 1943,
+    "router_ndcg": 0.8471263516378023,
+    "oracle_ndcg": 0.9523702261887381,
+    "quality_regret_mean": 0.10524387455093599,
+    "reward_regret_mean": 0.10315888298082339,
+    "catastrophic_drop": 0.020586721564590838,
+    "fixed_arms": {
+      "MULTIMODAL_RERANK": 0.8565385802408819,
+      "MULTIMODAL-SINGLE": 0.8200333271844713,
+      "TEXT_RERANK": 0.7621619631770398,
+      "TEXT-SINGLE": 0.6367070289368373,
+      "BM25": 0.6360511165603631
+    },
+    "best_fixed_arm": "MULTIMODAL_RERANK",
+    "best_fixed_ndcg": 0.8565385802408819
+  },
+  "target_tatdqa": {
+    "set": "target_tatdqa",
+    "n_queries": 2712,
+    "router_ndcg": 0.6113478454296973,
+    "oracle_ndcg": 0.8424702275884209,
+    "quality_regret_mean": 0.23112238215872377,
+    "reward_regret_mean": 0.21295222331597055,
+    "catastrophic_drop": 0.12721238938053098,
+    "fixed_arms": {
+      "MULTIMODAL_RERANK": 0.6557777735826396,
+      "MULTIMODAL-SINGLE": 0.6102963547124453,
+      "TEXT_RERANK": 0.4275269371271802,
+      "TEXT-SINGLE": 0.33062766446961067,
+      "BM25": 0.36086848447273956
+    },
+    "best_fixed_arm": "MULTIMODAL_RERANK",
+    "best_fixed_ndcg": 0.6557777735826396
+  },
+  "target_wiki-ss": {
+    "set": "target_wiki-ss",
+    "n_queries": 1496,
+    "router_ndcg": 0.678972456323772,
+    "oracle_ndcg": 0.9676754139430713,
+    "quality_regret_mean": 0.2887029576192994,
+    "reward_regret_mean": 0.26689357048357576,
+    "catastrophic_drop": 0.18716577540106952,
+    "fixed_arms": {
+      "MULTIMODAL_RERANK": 0.7316315598808506,
+      "MULTIMODAL-SINGLE": 0.6483247341917473,
+      "TEXT_RERANK": 0.7738480983467473,
+      "TEXT-SINGLE": 0.7022153247661056,
+      "BM25": 0.7448527964038415
+    },
+    "best_fixed_arm": "TEXT_RERANK",
+    "best_fixed_ndcg": 0.7738480983467473
+  },
+  "target_arxivqa": {
+    "set": "target_arxivqa",
+    "n_queries": 903,
+    "router_ndcg": 0.4438912445675999,
+    "oracle_ndcg": 0.8012854482663232,
+    "quality_regret_mean": 0.3573942036987233,
+    "reward_regret_mean": 0.3234532521389137,
+    "catastrophic_drop": 0.2702104097452935,
+    "fixed_arms": {
+      "MULTIMODAL_RERANK": 0.6295132924319491,
+      "MULTIMODAL-SINGLE": 0.42377471126435395,
+      "TEXT_RERANK": 0.39284370128934737,
+      "TEXT-SINGLE": 0.2512754648788295,
+      "BM25": 0.3073425844005355
+    },
+    "best_fixed_arm": "MULTIMODAL_RERANK",
+    "best_fixed_ndcg": 0.6295132924319491
+  }
+}

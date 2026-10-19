@@ -1,0 +1,16 @@
+{
+  "hf_repo": "emrekuruu/Wiki-ss",
+  "n_rows": 15293,
+  "n_unique_pages": 12752,
+  "n_queries": 14968,
+  "duplicate_query_filename_rows": 325,
+  "annotation_only_none_rows": 0,
+  "real_conflicting_image_per_filename": 0,
+  "real_conflicting_text_per_filename": 0,
+  "max_pages_per_query": 1,
+  "multi_page_queries": 0,
+  "n_case_queries": 6,
+  "case_queries_missing_in_hf": [],
+  "img_none_pages": 0,
+  "txt_none_pages": 0
+}

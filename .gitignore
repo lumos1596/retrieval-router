@@ -1,0 +1,104 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ========================
+# Virtual environments
+# ========================
+.venv/
+.venv-eval/
+venv/
+env/
+ENV/
+
+# ========================
+# OS / IDE
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# Secrets & logs
+# ========================
+.env
+.keys/
+*.log
+**/wandb/
+**/results_**/
+runs/
+*.tfevents.*
+
+# ========================
+# Model weights (large, regenerable)
+# ========================
+*.safetensors
+*.pt
+*.bin
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.gguf
+
+# ========================
+# Large data / embeddings (regenerable)
+# ========================
+*.parquet
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.arrow
+*.feather
+*.lmdb
+
+# ========================
+# Checkpoint directories (contain model weights)
+# ========================
+**/checkpoint*/
+**/*_ckpt/
+
+# ========================
+# Backup / temp
+# ========================
+.git.bak/
+*.bak
+
+# ========================
+# Training artifacts & datasets (regenerable)
+# ========================
+**/train/outputs/
+**/models/
+**/qrels/
+**/train/data/*.xlsx
+**/train/data/*.parquet
+**/train/data/*.csv
+**/train/data/*.jsonl
+**/experiments/**/train_split.xlsx
+**/experiments/**/val_split.xlsx
+**/experiments/**/test_split.xlsx
+**/experiments/**/updated_dataset.xlsx
+
+# ========================
+# Generated evaluation artifacts
+# ========================
+**/evaluation/generated/
+**/evaluation/visual_portions/
+**/evaluation/data/*.xlsx
+
+# ========================
+# Misc
+# ========================
+paper.pdf
+**/Pearl/

@@ -1,0 +1,16 @@
+{
+  "hf_repo": "emrekuruu/FinQA",
+  "n_rows": 8281,
+  "n_unique_pages": 2789,
+  "n_queries": 8263,
+  "duplicate_query_filename_rows": 14,
+  "annotation_only_none_rows": 5492,
+  "real_conflicting_image_per_filename": 0,
+  "real_conflicting_text_per_filename": 0,
+  "max_pages_per_query": 2,
+  "multi_page_queries": 4,
+  "n_case_queries": 3,
+  "case_queries_missing_in_hf": [],
+  "img_none_pages": 0,
+  "txt_none_pages": 0
+}

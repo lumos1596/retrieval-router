@@ -1,0 +1,5 @@
+qid=2013 dataset=vqaonbd arm=MR group=C
+replay dense nDCG@5=0.6309297535714575 (off 0.6309297535714575)
+replay rerank nDCG@5=1.0 (off 1.0)
+
+In HCA Healthcare's 2017 report, what is the average of the provision for current year claims and unfavorable development related to prior years' claims for 2016?

@@ -1,0 +1,16 @@
+{
+  "hf_repo": "emrekuruu/TATDQA",
+  "n_rows": 27907,
+  "n_unique_pages": 2758,
+  "n_queries": 27128,
+  "duplicate_query_filename_rows": 79,
+  "annotation_only_none_rows": 11349,
+  "real_conflicting_image_per_filename": 0,
+  "real_conflicting_text_per_filename": 0,
+  "max_pages_per_query": 87,
+  "multi_page_queries": 408,
+  "n_case_queries": 10,
+  "case_queries_missing_in_hf": [],
+  "img_none_pages": 0,
+  "txt_none_pages": 0
+}

@@ -1,0 +1,16 @@
+{
+  "hf_repo": "emrekuruu/SciQAG",
+  "n_rows": 4496,
+  "n_unique_pages": 2595,
+  "n_queries": 4496,
+  "duplicate_query_filename_rows": 0,
+  "annotation_only_none_rows": 0,
+  "real_conflicting_image_per_filename": 0,
+  "real_conflicting_text_per_filename": 0,
+  "max_pages_per_query": 1,
+  "multi_page_queries": 0,
+  "n_case_queries": 2,
+  "case_queries_missing_in_hf": [],
+  "img_none_pages": 0,
+  "txt_none_pages": 0
+}

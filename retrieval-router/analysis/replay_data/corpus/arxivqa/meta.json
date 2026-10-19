@@ -1,0 +1,16 @@
+{
+  "hf_repo": "emrekuruu/ArxivQA",
+  "n_rows": 10838,
+  "n_unique_pages": 4749,
+  "n_queries": 9034,
+  "duplicate_query_filename_rows": 1768,
+  "annotation_only_none_rows": 0,
+  "real_conflicting_image_per_filename": 0,
+  "real_conflicting_text_per_filename": 0,
+  "max_pages_per_query": 5,
+  "multi_page_queries": 20,
+  "n_case_queries": 2,
+  "case_queries_missing_in_hf": [],
+  "img_none_pages": 0,
+  "txt_none_pages": 0
+}

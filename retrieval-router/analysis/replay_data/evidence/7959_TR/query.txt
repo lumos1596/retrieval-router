@@ -1,0 +1,5 @@
+qid=7959 dataset=wiki-ss arm=TR group=B
+replay dense nDCG@5=1.0 (off 1.0)
+replay rerank nDCG@5=0.5 (off 0.0)
+
+who does elena choose in the vampire diaries

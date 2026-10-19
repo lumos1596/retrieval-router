@@ -1,0 +1,5 @@
+qid=3180 dataset=tatdqa arm=MR group=C
+replay dense nDCG@5=0.0 (off 0.0)
+replay rerank nDCG@5=0.0 (off 0.6309297535714575)
+
+In which fiscal years did the percentage of net sales from the EMEA region exceed 20% of total net sales for Kemet Corporation?

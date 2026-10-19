@@ -1,0 +1,19 @@
+{
+  "hf_repo": "emrekuruu/VQAonBD",
+  "n_rows": 9820,
+  "n_unique_pages": 1788,
+  "n_queries": 9773,
+  "duplicate_query_filename_rows": 7,
+  "annotation_only_none_rows": 8033,
+  "real_conflicting_image_per_filename": 0,
+  "real_conflicting_text_per_filename": 0,
+  "max_pages_per_query": 7,
+  "multi_page_queries": 34,
+  "n_case_queries": 2,
+  "case_queries_missing_in_hf": [],
+  "img_none_pages": 1,
+  "txt_none_pages": 1,
+  "pages_without_content_placeholder": [
+    "DFS/2009/page_125.pdf"
+  ]
+}

@@ -1,0 +1,21 @@
+DATASET,query,pred_arm,chosen_ndcg,oracle_ndcg,quality_regret,MULTIMODAL_RERANK_ndcg,MULTIMODAL-SINGLE_ndcg,TEXT_RERANK_ndcg,TEXT-SINGLE_ndcg,BM25_ndcg,prob_MULTIMODAL_RERANK,prob_MULTIMODAL-SINGLE,prob_TEXT_RERANK,prob_TEXT-SINGLE,prob_BM25,best_arm
+wiki-ss,where was the creature from the black lagoon filmed at,BM,0.0,1.0,1.0,1.0,0.4306765580733931,1.0,0.0,0.0,0.16427477,0.26313597,0.20533116,0.086603716,0.2806544,MR
+wiki-ss,who has won the most basketball ncaa championships,MR,0.0,1.0,1.0,0.0,1.0,0.0,0.5,0.0,0.33930063,0.23966216,0.13489859,0.10993986,0.17619884,MD
+wiki-ss,what religion is most common in africa south of the sahara desert,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,0.17172027,0.26312378,0.21507019,0.11283706,0.2372487,MR
+wiki-ss,in the 1st century bc egypt became a colony of,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.4306765580733931,1.0,0.16802774,0.26305714,0.189288,0.11810689,0.2615203,MR
+wiki-ss,who wrote the song love on a two way street,MD,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.20389406,0.26722965,0.208322,0.11606194,0.20449229,TD
+wiki-ss,what is the main airport in london england,MD,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,0.24093294,0.28611496,0.21894391,0.15647216,0.09753603,MR
+wiki-ss,what can change the binding properties of a protein,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.21208651,0.28875774,0.20438533,0.11176175,0.18300864,MR
+wiki-ss,when did dude where 's my car come out,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,0.1731276,0.27662337,0.18373182,0.1515031,0.21501413,MR
+wiki-ss,when is manager of the year announced premier league,MD,0.0,1.0,1.0,0.6309297535714575,0.0,0.6309297535714575,1.0,0.3868528072345416,0.23849866,0.2777461,0.2084289,0.15633488,0.1189914,TD
+wiki-ss,when did hot wheels start super treasure hunts,MD,0.0,1.0,1.0,1.0,0.0,0.4306765580733931,0.0,0.0,0.20002857,0.2649948,0.26396167,0.1421188,0.12889616,MR
+wiki-ss,who owns the lord of the rings franchise,MR,0.0,1.0,1.0,0.0,1.0,0.0,1.0,1.0,0.33716795,0.26568195,0.1461515,0.11140356,0.13959497,MD
+wiki-ss,the states of manipur tripura and meghalaya were formed in,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.4306765580733931,0.13396266,0.27594936,0.15032437,0.16381422,0.27594936,MR
+wiki-ss,when did marks and spencer 's first open,BM,0.0,1.0,1.0,0.6309297535714575,0.0,1.0,0.6309297535714575,0.0,0.1429227,0.2631319,0.18151122,0.14306234,0.2693719,TR
+wiki-ss,who plays dina abbott on the young and the restless,MD,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,0.15722756,0.3395607,0.15800197,0.153052,0.19215776,MR
+wiki-ss,who sang the song in the movie the river of no return,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,0.24715176,0.24739324,0.17482948,0.12772076,0.2029048,MR
+wiki-ss,who wrote the song the good the bad and the ugly,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.23573187,0.34298784,0.10298363,0.09159554,0.22670113,MR
+wiki-ss,who plays eli gold on the good wife,MD,0.0,1.0,1.0,0.6309297535714575,0.0,0.6309297535714575,0.6309297535714575,1.0,0.210803,0.2570232,0.16921964,0.16131291,0.20164132,BM
+wiki-ss,what 's the latest episode of criminal minds,MD,0.0,1.0,1.0,0.6309297535714575,0.0,0.5,1.0,0.0,0.19813937,0.3242135,0.17252512,0.15434876,0.15077329,TD
+wiki-ss,when did the xbox 360 slim come out,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.1528502,0.29809943,0.12997589,0.23170707,0.18736744,MR
+wiki-ss,who plays the father in the new beauty and the beast,MD,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.5,0.26493233,0.28814355,0.1426414,0.1531814,0.15110138,MR

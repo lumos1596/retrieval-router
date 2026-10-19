@@ -1,0 +1,5 @@
+qid=2481 dataset=tatdqa arm=MR group=A
+replay dense nDCG@5=1.0 (off 1.0)
+replay rerank nDCG@5=0.43067655807339306 (off 0.4306765580733931)
+
+What is the average of the research and development expenses for the years 2018 and 2019, as reported in the financial documents of Shopify Inc. for the year 2019?

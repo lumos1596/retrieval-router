@@ -1,0 +1,346 @@
+query_id,dataset,query,ndcg_MULTIMODAL_RERANK,ndcg_MULTIMODAL-SINGLE,ndcg_TEXT_RERANK,ndcg_TEXT-SINGLE,ndcg_BM25,mr_ndcg,oracle_ndcg,P0_arm,P0_ok,P0_ndcg,P0_tokens,P0_resp,P1_arm,P1_ok,P1_ndcg,P1_tokens,P1_resp,P2_arm,P2_ok,P2_ndcg,P2_tokens,P2_resp
+0,val,"What is the minimum value between income before income taxes and income tax provision benefit for Autodesk's fiscal year ended January 31, 2006?",0.0,0.0,0.0,0.0,0.0,0.0,0.0,TEXT-SINGLE,True,0.0,1,FINAL=TD,BM25,True,0.0,51,"This question requires finding specific financial data from a company's annual report, which involves numerical values and precise matching of keywords related to financial statements. Given the need for exact keyword matching and the precision required to identify the correct financial metrics, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.0,88,"Task: fact lookup, numerical computation, constrained comparison
+Constraints: exact entities (Autodesk), exact year (January 31, 2006)
+Matching Need: semantic recall
+Comparison: This query requires finding specific financial data from a company's annual report. The most relevant retrieval methods are BM25 and TR. BM25 excels in finding exact entity names and precise string matches, which is crucial for identifying Autodesk's financial statements. TR, on the other hand, can handle the semantic si"
+1,val,"What is the median value of the contractual obligations for Edison International that are due in less than 1 year, considering long-term debt maturities and interests, renewable energy contracts, qualifying facility contracts, other power purchase agreements, other operating leases, nuclear fuel sup",1.0,1.0,0.5,1.0,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,TEXT_RERANK,True,0.5,45,"This question requires understanding specific contractual obligations and their timing, which involves precise matching of keywords and possibly some semantic understanding. Given the need for fine-grained multi-condition matching and relevance discrimination within the text, the best approach would be using a Text-Rerank (TR) method.
+
+FINAL=TR",TEXT-SINGLE,True,1.0,77,"Task: numerical computation
+Constraints: exact entities (Edison International), years (less than 1 year), specific types of contractual obligations (long-term debt maturities, renewable energy contracts, etc.)
+Matching Need: token-level fine-grained match
+Comparison: TD vs. TR
+TD is better suited for semantic similarity and paraphrased questions, which makes it strong for this query involving specific types of contractual obligations. TR, while strong for fine-grained multi-condition matching, d"
+2,val,"What is the minimum value among accrued liabilities, current deferred revenue, and noncurrent deferred income taxes for Williams Companies in 2014?",1.0,0.5,1.0,0.0,0.6309297535714575,1.0,1.0,MULTIMODAL-SINGLE,True,0.5,1,FINAL=MD,BM25,True,0.6309297535714575,56,"This question requires finding specific financial values from a company's financial report for a particular year, which involves numerical data and precise matching. Given the need for exact values and the presence of financial terms, BM (BM25) would be the most suitable method as it can handle the lexical precision required for such exact-value queries.
+
+FINAL=BM",MULTIMODAL-SINGLE,True,0.5,144,"Task: fact lookup, numerical computation, constrained comparison
+Constraints: exact entities (Williams Companies), exact year (2014), relations (minimum value among accrued liabilities, current deferred revenue, noncurrent deferred income taxes)
+Matching Need: token-level fine-grained match
+Comparison: The query requires a specific numerical computation and comparison of financial metrics. BM (BM25) might struggle with the exact numerical values and precise comparisons needed. TD (Text-Dense) co"
+3,val,"What is the cumulative value of unrealized holding gains/losses, income tax expense/benefit related to unrealized holding gains/losses, reclassification adjustment for the net gain on sale of available-for-sale securities realized in net income, and income tax expense on reclassification adjustment ",1.0,1.0,0.6309297535714575,0.6309297535714575,0.5,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,MULTIMODAL-SINGLE,True,1.0,82,"This question requires understanding financial statements and specific details about a company's accounting entries, which involves precise matching of keywords and potentially some semantic understanding. Given the need for both exact terms and context-specific information, BM might seem suitable at first glance due to its ability to handle exact entity names, but considering the need for context and the potential presence of relevant visual elements (like charts or graphs), MD could be more ap",MULTIMODAL_RERANK,True,1.0,71,"Task: fact lookup
+Constraints: exact entities (Paychex, 2008), relations (cumulative value, income tax expense/benefit, reclassification adjustment)
+Matching Need: semantic recall
+Comparison: TD vs. MR
+TD is suitable for semantic similarity and paraphrased questions, while MR excels in queries requiring visual interaction, especially with figures and tables. Given the need to find specific financial details and the potential presence of relevant figures or tables, MR is likely the best choice.
+
+"
+4,val,"What was the average percent of foreign operations, including foreign tax credits, for the three-year period from 2004 to 2006, as reflected in Marathon Oil's financial statements?",0.6309297535714575,0.5,0.5,0.5,0.5,0.6309297535714575,0.6309297535714575,MULTIMODAL-SINGLE,True,0.5,1,FINAL=MD,BM25,True,0.5,46,"This question requires understanding specific financial data from Marathon Oil's financial statements over a three-year period, which involves precise numerical data and context. Given the need for exact matching of keywords and the presence of financial data, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",MULTIMODAL-SINGLE,True,0.5,165,"Task: fact lookup, numerical computation, constrained comparison, no explicit visual request, multi-condition needs
+Matching Need: semantic recall, token-level fine-grained match
+Comparison: TD vs TR
+FINAL: MD
+
+Analysis:
+- The question requires finding specific financial data from Marathon Oil's financial statements over a three-year period (2004-2006).
+- It involves numerical computation and constrained comparisons, which are better handled by a retriever that can perform fine-grained text-base"
+5,val,What is the percentage change in the weighted average fair value per share of stock options granted under the BHGE 2017 Long-Term Incentive Plan from 2017 to 2018?,1.0,1.0,1.0,1.0,1.0,1.0,1.0,TEXT-SINGLE,True,1.0,1,FINAL=TD,BM25,True,1.0,41,"This question requires understanding financial data and comparing values between two years, which involves numerical analysis and precision in wording. Given the need for exact keyword matching and precise string comparisons, BM (BM25) would be the most suitable retrieval method.
+
+FINAL=BM",BM25,True,1.0,93,"Task: fact lookup
+Constraints: exact entities (BHGE 2017 Long-Term Incentive Plan), years (2017, 2018), numerical values (percentage change)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific numerical data about a financial metric (percentage change in fair value per share) from a particular plan (BHGE 2017 Long-Term Incentive Plan) for two specific years (2017 and 2018). The most suitable method here is BM (BM25) because it excels at handling exact entity names"
+6,val,"What is the maximum value among interest and other expense income net and gain loss on investments and put option net in the 2012 financial report of Monster Beverage, contributing towards total other expense income?",1.0,0.3868528072345416,1.0,0.0,0.0,1.0,1.0,MULTIMODAL-SINGLE,True,0.3868528072345416,1,FINAL=MD,BM25,True,0.0,86,"This question requires understanding specific financial data points from a company's financial report, including values from different sections like ""interest and other expense income net"" and ""gain loss on investments and put option net."" It also involves calculating a maximum value, which necessitates comparing multiple pieces of information. Given the need for precise numerical comparisons and the context of a financial report, BM (BM25) would be the most suitable method as it can handle the ",TEXT-SINGLE,True,0.0,81,"Task: fact lookup
+Constraints: Monster Beverage, 2012 financial report, interest, other expense income net, gain loss on investments, put option net, total other expense income
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrased questions, making it more capable for understanding the specific financial terms and their relationships in the query. TR, while strong for fine-grained multi-condition matching, might struggle wi"
+7,val,"Within the context of The Interpublic Group of Companies' 2015 financial report, what is the combined total of stock options granted during the years ended December 31, 2014 and December 31, 2015?",0.0,0.0,1.0,0.6309297535714575,0.0,0.0,1.0,TEXT-SINGLE,True,0.6309297535714575,1,FINAL=TD,BM25,True,0.0,48,"This question requires finding specific numerical data from a financial report, which involves precise matching of keywords and potentially some understanding of the financial context. Given the need for exact keyword matching and the presence of numerical data, BM (BM25) would be the most suitable retrieval method.
+
+FINAL=BM",TEXT-SINGLE,True,0.6309297535714575,84,"Task: fact lookup, numerical computation, constrained comparison, explicit visual request, other
+
+Constraints: exact entities (The Interpublic Group of Companies, 2015 financial report), years (2014, 2015), number (combined total of stock options), relation (total granted during specified years)
+
+Matching Need: semantic recall
+
+Comparison: This query requires finding specific numerical data from a financial report, which involves both exact entity names and precise numerical values. It is more s"
+8,val,"What is the cumulative sum of restricted shares outstanding at the beginning of the year, restricted shares granted, restricted shares vested, and restricted shares forfeited for the year 2010, according to Automatic Data Processing's 2010 report?",0.6309297535714575,1.0,1.0,1.0,0.4306765580733931,0.6309297535714575,1.0,TEXT-SINGLE,True,1.0,1,FINAL=TD,TEXT_RERANK,True,1.0,44,"This question requires understanding financial data from a specific company's report, which involves numerical values and operations like addition. It is best served by a method that can handle precise numerical calculations and fine-grained relevance discrimination, making TR (Text-Rerank) the most suitable choice.
+
+FINAL=TR",TEXT-SINGLE,True,1.0,42,"Task: numerical computation
+Constraints: exact entities (Automatic Data Processing, 2010), specific financial data (cumulative sum of restricted shares)
+Matching Need: token-level fine-grained match
+Comparison: TD (strong for semantic similarity) vs. MR (strong for queries requiring visual information like figures or tables)
+FINAL=TD"
+9,val,"What is the average weighted average useful life (in years) for Adobe Inc.'s trademarks and customer contracts and relationships, as disclosed in the company's 2009 consolidated financial statements?",1.0,0.6309297535714575,0.6309297535714575,0.5,0.4306765580733931,1.0,1.0,MULTIMODAL-SINGLE,True,0.6309297535714575,1,FINAL=MD,BM25,True,0.4306765580733931,42,"This question requires finding specific numerical data from a company's financial statements, which involves precise keyword matching and understanding of financial terminology. Given the need for exact entity names and precise string matches, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.4306765580733931,78,"Task: fact lookup
+Constraints: exact entities (Adobe Inc., 2009), number (average weighted average useful life)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific numerical data from a financial report. BM (BM25) is likely the best choice here because it can handle exact entity names and precise string matches needed for the average weighted average useful life of trademarks and customer contracts. TD (Text-Dense) might struggle with the exact numerical value wit"
+10,val,What was the variance between the average and period-end balance of mortgage loans for JPMorgan Chase in the 2013 financial year?,1.0,1.0,0.0,1.0,0.0,1.0,1.0,TEXT-SINGLE,True,1.0,1,FINAL=TD,BM25,True,0.0,46,"This question requires understanding financial data and comparing specific values, which is better suited for a retrieval method that can handle precise numerical comparisons and text analysis. Given the need for exact keyword matching and semantic similarity, BM (BM25) would be the most appropriate choice.
+
+FINAL=BM",TEXT-SINGLE,True,1.0,69,"Task: fact lookup
+Constraints: JPMorgan Chase, mortgage loans, 2013 financial year, variance, average, period-end balance
+Matching Need: semantic recall
+Comparison: For this query, both TD (Text-Dense) and TR (Text-Rerank) can be considered, but TD is more suitable due to its strong semantic similarity and ability to handle paraphrased questions. However, since we need specific numerical values and a comparison, TD might not provide the exact precision needed.
+FINAL: TD"
+11,val,"What is the median value of outstanding at beginning of year, granted, exercised, and forfeited shares for the year 2015, as reported by Genuine Parts Company?",1.0,1.0,1.0,0.5,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,1.0,64,"This question requires finding specific financial data from a company report, which involves numerical values and specific conditions related to share values. It leans towards needing semantic understanding and precision rather than just exact keyword matching. Given these requirements, the best choice is BM (BM25) as it can handle the precision needed for the exact term ""median value"" and the specific conditions mentioned.
+
+FINAL=BM",BM25,True,1.0,78,"Task: fact lookup
+Constraints: exact entities (Genuine Parts Company), year (2015), relations (median value of outstanding shares), conditions (beginning of year, granted, exercised, forfeited)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific financial data, which is best handled by BM (BM25) due to its strong performance with exact entity names and precise string matches. TD (Text-Dense) might struggle with the exact terminology and lack of visual context need"
+12,val,"What is the minimum value among the changes in Take-Two Interactive's tax positions for the year 2008, including balance at November 1, 2007, current year tax positions, prior year tax positions, reduction of prior year tax positions, settlements, and lapse of statute of limitations, which contribut",1.0,1.0,0.6309297535714575,1.0,0.6309297535714575,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,0.6309297535714575,54,"This question requires understanding financial data and tax positions, which involves numerical values and specific financial metrics. Given the need for precise numerical calculations and the context of financial statements, BM (BM25) would be the most suitable as it can handle the lexical matching needed for the specific financial terms and values mentioned.
+
+FINAL=BM",TEXT-SINGLE,True,1.0,91,"Task: numerical computation
+Constraints: exact entities (Take-Two Interactive), years (2008, 2007), relation (changes in tax positions), multi-condition needs (balance at November 1, 2007, current year tax positions, prior year tax positions, reduction of prior year tax positions, settlements, lapse of statute of limitations)
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrased questions, while TR excels in fine-grained mu"
+13,val,"What is the average of the weighted average common shares outstanding and the dilutive effect of employee stock plans for Oracle Corporation in the year 2008, which contributes to the dilutive weighted average common shares outstanding?",1.0,1.0,1.0,1.0,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,1.0,66,"This question requires understanding financial data from a specific company and year, including concepts like weighted average common shares outstanding and dilutive effects. It involves numerical values and specific terminology, which is better matched by a method that can handle precise keyword matching and semantic understanding. Given these requirements, BM (BM25) seems most suitable as it excels at handling exact keywords and precise string matches.
+
+FINAL=BM",TEXT-SINGLE,True,1.0,72,"Task: fact lookup
+Constraints: Oracle Corporation, 2008, weighted average common shares outstanding, dilutive effect of employee stock plans
+Matching Need: semantic recall
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrased questions, making it more capable for understanding the complex query about weighted averages and dilutive effects. TR, while strong for fine-grained multi-condition matching, might struggle with the specific terminology and context required for t"
+14,val,"What is the minimum value between the total long-term debt maturities and interest for Edison International Parent and Other, and the total power purchase agreements for SCE, specifically for the 1 to 3 years period in the 2013 report?",1.0,1.0,1.0,0.6309297535714575,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,TEXT-SINGLE,True,0.6309297535714575,41,"This question requires finding specific financial data from a report, which involves numerical values and precise conditions. It benefits most from a method that can handle fine-grained multi-condition matching and relevance discrimination within text, making TD (Text-Dense) the best choice.
+
+FINAL=TD",TEXT_RERANK,True,1.0,114,"Task: constrained comparison
+Constraints: Edison International Parent and Other, SCE, 2013, 1 to 3 years
+Matching Need: token-level fine-grained match
+Comparison: For this query, the most suitable retrieval methods are **TR (Text-Rerank)** and **TD (Text-Dense)**. TR excels in fine-grained multi-condition matching and relevance discrimination within text, making it ideal for extracting specific values like total long-term debt maturities and interest, and total power purchase agreements. TD, whi"
+15,val,"What is the higher value between net income and total other comprehensive income for Pinnacle West in the year 2013, which contributes to the comprehensive income?",0.6309297535714575,0.6309297535714575,1.0,0.6309297535714575,0.0,0.6309297535714575,1.0,MULTIMODAL-SINGLE,True,0.6309297535714575,1,FINAL=MD,BM25,True,0.0,45,"This question requires finding specific values from a financial report for a particular company and year, which involves numerical data and precise matching of keywords. It is not primarily about visual elements or multimodal information. Therefore, the best retrieval method would be BM (BM25).
+
+FINAL=BM",TEXT-SINGLE,True,0.6309297535714575,82,"Task: constrained comparison
+Constraints: Pinnacle West, net income, total other comprehensive income, comprehensive income, 2013
+Matching Need: semantic recall
+Comparison: TD vs TR
+TD is strong for semantic similarity and paraphrased questions, making it suitable for understanding the context and comparing net income and total other comprehensive income. TR provides additional token-level fine-grained match but doesn't offer semantic understanding. TD is better suited for this query as it can h"
+16,val,"Regarding the July 2013 settled tax obligation resulting from the examination covering fiscal 2008 and 2009, what percentage of the $48.4 million accrued tax and interest was recorded in the third quarter of fiscal 2013 as an income tax benefit?",1.0,0.5,0.6309297535714575,0.0,0.6309297535714575,1.0,1.0,TEXT-SINGLE,True,0.0,1,FINAL=TD,TEXT-SINGLE,True,0.0,48,"This question requires understanding financial data and percentages, which is best handled by a method that can deal with numerical values and context, such as TD (Text-Dense) retrieval, as it excels at semantic similarity and paraphrasing, making it suitable for interpreting the financial context and percentages mentioned.
+
+FINAL=TD",TEXT_RERANK,True,0.6309297535714575,80,"Task: fact lookup, numerical computation, constrained comparison
+Constraints: exact entities (July 2013, fiscal 2008 and 2009), exact number ($48.4 million), relation (third quarter of fiscal 2013 as an income tax benefit)
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrased questions, while TR excels in fine-grained multi-condition matching and relevance discrimination. Given the need for token-level precision and the spe"
+17,val,"For the fiscal year ended January 31, 2016, what is the minimum value between Autodesk's net loss income and total other comprehensive loss income, which together contribute to the total comprehensive loss income?",1.0,1.0,1.0,1.0,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,TEXT-SINGLE,True,1.0,41,"This question requires understanding financial data and comparing values, which involves semantic similarity and paraphrasing. It is best addressed using TD (Text-Dense) retrieval, as it can handle the semantic similarity needed for the question and the context of financial statements.
+
+FINAL=TD",TEXT_RERANK,True,1.0,96,"Task: numerical computation
+Constraints: exact entities (Autodesk), years (2016), relation of net loss income and total other comprehensive loss income contributing to total comprehensive loss income
+Matching Need: token-level fine-grained match
+Comparison: This query requires precise numerical values and comparisons, making it suitable for either TD (Text-Dense) or TR (Text-Rerank). TD excels in semantic similarity and paraphrasing, while TR can handle fine-grained multi-condition matching and "
+18,val,"What percentage of Entergy Arkansas' aggregate borrowing capacity, which includes the $150 million credit facility and the $80 million credit facility of the Entergy Arkansas Nuclear Fuel Company, is scheduled to expire in 2019?",0.6309297535714575,1.0,1.0,0.4306765580733931,0.6309297535714575,0.6309297535714575,1.0,BM25,True,0.6309297535714575,1,FINAL=BM,BM25,True,0.6309297535714575,44,"This question requires understanding financial data and specific details about a company's borrowing capacity, which involves numerical values and precise conditions. It leans towards lexical keyword matching for the exact entity names and financial figures, making BM (BM25) the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.6309297535714575,75,"Task: fact lookup
+Constraints: Entergy Arkansas, $150 million credit facility, $80 million credit facility, Entergy Arkansas Nuclear Fuel Company, aggregate borrowing capacity, 2019 expiration
+Matching Need: lexical exact match
+Comparison: For this query, BM (BM25) is likely the best choice because it requires finding specific numerical values and exact entity names, which is strong in lexical exact match. TD (Text-Dense) might struggle with the precise numerical computations needed and the exac"
+19,val,"What was the cumulative total return of American Airlines Group Inc. common stock from December 9, 2013, to December 31, 2015, assuming a $100 investment and reinvestment of dividends, as indicated in the stock performance graph?",0.6309297535714575,0.6309297535714575,1.0,0.6309297535714575,1.0,0.6309297535714575,1.0,MULTIMODAL-SINGLE,True,0.6309297535714575,1,FINAL=MD,BM25,True,1.0,53,"This question requires finding specific financial data from a stock performance graph, which involves precise temporal and value-based matching. Given the need for exact dates and financial values, BM (BM25) is the most suitable method as it excels at lexical keyword matching and can handle the precision required for such financial data.
+
+FINAL=BM",MULTIMODAL-SINGLE,True,0.6309297535714575,73,"Task: explicit visual request
+Matching Need: page visual representation
+Comparison: For this query, the most relevant retriever is **MD (MM-Dense)**. This is because the question specifically asks about data from a stock performance graph, which likely contains visual elements such as charts and images. The MM-Dense method excels in handling multimodal page representations, including text and image regions, making it suitable for extracting the required financial data from the visual context. 
+
+"
+20,val,"What percentage of the total cash payments required for long-term debt maturities, rental payments under non-cancellable operating leases, purchase obligations, and other commitments in effect at December 31, 2010, for Ball Corporation are comprised of purchase obligations?",1.0,1.0,1.0,0.6309297535714575,0.6309297535714575,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,TEXT-SINGLE,True,0.6309297535714575,43,"This question requires understanding financial data from a specific date and includes multiple types of commitments. It benefits most from a method that can handle complex queries and semantic similarity, such as TD (Text-Dense) retrieval, which excels in semantic similarity and paraphrasing.
+
+FINAL=TD",BM25,True,0.6309297535714575,64,"Task: fact lookup
+Constraints: exact entities (Ball Corporation), exact year (2010), specific financial terms (long-term debt maturities, rental payments, purchase obligations, other commitments)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific financial data from a company's annual report. BM is suitable for exact entity names and financial term matches, while TD might struggle with the precise numerical computation needed. FINAL: BM"
+21,val,What was the combined total of additional collateral or termination payments for a one-notch downgrade in Goldman Sachs' credit ratings as of December 2013 and December 2012?,1.0,1.0,0.6309297535714575,0.5,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,1.0,48,"This question requires precise numerical data related to financial transactions, which is best matched by a retrieval method that can handle exact keyword matching and fine-grained multi-condition matching. Given the need for specific financial details and the precision required, BM (BM25) would be the most suitable choice.
+
+FINAL=BM",TEXT-SINGLE,True,0.5,32,"Task: fact lookup
+Constraints: Goldman Sachs, one-notch downgrade, collateral or termination payments, December 2013, December 2012
+Matching Need: semantic recall
+Comparison: TD (for semantic similarity) vs. BM (for exact entity names)
+FINAL=TD"
+22,val,"What is the minimum percentage change in constant currency for software license updates and product support revenues across the Americas, EMEA, and Asia Pacific regions for Oracle Corporation in 2008?",0.6309297535714575,1.0,1.0,1.0,0.6309297535714575,0.6309297535714575,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,0.6309297535714575,49,"This question requires finding specific financial data from a company's report, which involves precise numerical values and region-specific information. Given the need for exact match on the company name, region, and year, along with the requirement for precise numerical data, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.6309297535714575,64,"Task: fact lookup
+Constraints: Oracle Corporation, software license updates and product support revenues, Americas, EMEA, Asia Pacific regions, 2008
+Matching Need: lexical exact match
+Comparison: This query requires finding specific financial data, which is best handled by BM (BM25) due to its strong performance with exact entity names and precise string matches. TD (Text-Dense) would struggle with the exact numerical values needed.
+FINAL: BM"
+23,val,What is the minimum value between earnings before taxes and income tax expense that contributes to the net earnings for Jacobs Solutions in the year 2007?,1.0,1.0,0.6309297535714575,0.4306765580733931,0.0,1.0,1.0,TEXT-SINGLE,True,0.4306765580733931,1,FINAL=TD,BM25,True,0.0,48,"This question requires finding a specific value related to financial metrics, which involves numerical data and comparisons. Given the need for precision and the context of financial statements, BM (BM25) would be the most suitable as it can handle the exact numerical values required for such comparisons.
+
+FINAL=BM",TEXT_RERANK,True,0.6309297535714575,120,"Task: constrained comparison
+Constraints: exact entities (Jacobs Solutions, 2007), relation (minimum value between earnings before taxes and income tax expense contributing to net earnings)
+Matching Need: token-level fine-grained match
+Comparison: For this query, the most relevant retrieval methods are **TR (Text-Rerank)** and **TD (Text-Dense)**. TR excels in fine-grained multi-condition matching and relevance discrimination within text, making it suitable for parsing and comparing the specific"
+24,val,"As of December 31, 2016, what was the total amount of long-term debt for A. O. Smith, according to the summary of contractual obligations?",0.6309297535714575,1.0,0.6309297535714575,1.0,0.6309297535714575,0.6309297535714575,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,0.6309297535714575,53,"This question requires finding specific financial data from a company's report as of a particular date, which involves precise numerical extraction and understanding of financial statements. Given the need for exact date and company name matching along with the specific query about long-term debt, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.6309297535714575,68,"Task: fact lookup
+Constraints: exact entity (A. O. Smith), exact date (December 31, 2016), exact number (total long-term debt)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific financial data, which is best handled by BM (BM25) due to its strong performance with exact entity names and precise string matches. TD (Text-Dense) might struggle with the exact numerical value and date without additional context.
+FINAL: BM"
+25,val,"What is the minimum value among total current liabilities, long-term debt, and other long-term liabilities for Starbucks in the fiscal year ended October 1, 2006?",1.0,1.0,1.0,0.0,0.0,1.0,1.0,TEXT-SINGLE,True,0.0,1,FINAL=TD,BM25,True,0.0,52,"This question requires finding specific financial data for Starbucks, which involves numerical values extracted from a financial report. Given the need for precise numerical comparison and extraction, BM (BM25) would be the most suitable method as it excels at handling exact keyword matches and precise string comparisons needed for financial data.
+
+FINAL=BM",MULTIMODAL-SINGLE,True,1.0,115,"Task: constrained comparison
+Constraints: exact entities (Starbucks), exact year (October 1, 2006), relations between financial metrics (total current liabilities, long-term debt, other long-term liabilities)
+Matching Need: token-level fine-grained match
+Comparison: The query requires finding specific financial metrics and performing a constrained comparison. TD (Text-Dense) is suitable for semantic similarity and paraphrased questions, but it might struggle with the exact token-level fine-grain"
+26,val,"For the period of October 1, 2013 - October 31, 2013, what percentage of the 1204 shares purchased by PNC Financial Services did not originate from publicly announced programs?",0.3868528072345416,0.0,0.4306765580733931,0.0,1.0,0.3868528072345416,1.0,TEXT-SINGLE,True,0.0,1,FINAL=TD,TEXT-SINGLE,True,0.0,58,"This question requires understanding a specific time frame, a company, and a financial transaction detail, which leans towards semantic understanding and might benefit from a dense retrieval method that can handle complex queries well. Given the need for precise temporal and financial data, Text-Dense (TD) retrieval seems most appropriate as it excels at semantic similarity and paraphrasing.
+
+FINAL=TD",TEXT-SINGLE,True,0.0,77,"Task: numerical computation
+Constraints: exact entities (PNC Financial Services), years (2013), number (1204), relation (percentage of shares not from announced programs)
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrasing, which might help in understanding the context and the specific conditions mentioned in the question. TR, while strong for fine-grained multi-condition matching, might struggle with the exact numerical"
+27,val,"What was the percentage change in the weighted average fair value of American Tower's options granted from 2003 to 2004, as estimated using the Black-Scholes option pricing model?",1.0,1.0,1.0,1.0,1.0,1.0,1.0,TEXT-SINGLE,True,1.0,1,FINAL=TD,MULTIMODAL-SINGLE,True,1.0,75,"This question requires finding a specific percentage change in the weighted average fair value of American Tower's options, which likely involves financial data and might be found in a detailed report or annual report. Given the need for precise financial data and the potential presence of relevant text and possibly charts or tables, the best approach would be to use a multimodal dense retrieval method that can handle both textual and potentially visual elements.
+
+FINAL=MD",BM25,True,1.0,29,"Task: fact lookup
+Constraints: American Tower, options granted, weighted average fair value, percentage change, Black-Scholes model, 2003, 2004
+Matching Need: lexical exact match
+Comparison: TD vs MR
+FINAL: BM"
+28,val,"What is the maximum value of options exercisable within the specified exercise price ranges ($0.57-$9.97, $9.98-$18.78, $19.27-$22.72, $23.49-$23.49, $23.53-$33.13, $33.19-$38.15, $38.51-$40.11, $40.24-$64.06, $64.75-$96.63) for the year 2005?",0.6309297535714575,0.6309297535714575,0.6309297535714575,0.4306765580733931,1.0,0.6309297535714575,1.0,TEXT-SINGLE,True,0.4306765580733931,1,FINAL=TD,BM25,True,1.0,57,"This question requires finding specific numerical values within a range, which is better suited for a method that can handle precise numerical matching and filtering, such as BM25. TD would struggle with the exact numerical constraints, while TR might add unnecessary complexity. MD and MR are more appropriate for multimodal data, which is not relevant here.
+
+FINAL=BM",TEXT-SINGLE,True,0.4306765580733931,51,"Task: numerical computation
+Constraints: specific exercise price ranges, year 2005
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for fine-grained multi-condition matching, while TR can handle the relevance discrimination needed for these specific price ranges. TD is likely the best choice for this query.
+
+FINAL: TD"
+29,val,"What was the percentage change in accumulated other comprehensive earnings (loss) for Ball Corporation between 2004 and 2005, as reflected in the notes to consolidated financial statements for the year 2006?",0.6309297535714575,1.0,0.6309297535714575,1.0,0.6309297535714575,0.6309297535714575,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,0.6309297535714575,45,"This question requires understanding specific financial data from a company's notes to consolidated financial statements, which involves precise numerical values and context-specific terminology. Given the need for exact keyword matching and the presence of financial data, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.6309297535714575,69,"Task: fact lookup
+Constraints: Ball Corporation, 2004, 2005, accumulated other comprehensive earnings (loss), 2006
+Matching Need: lexical exact match
+Comparison: For this query, BM is the most suitable because it requires finding specific numerical data in the text of the notes to consolidated financial statements, which can be done with exact keyword matching. TD might struggle with the exact phrase ""percentage change"" and the specific year reference.
+FINAL: BM"
+30,val,"What is the minimum number of shares in millions for the outstanding options within the specific exercise price ranges of $0.34 - $14.02, $14.03 - $22.83, $23.25 - $34.06, $34.09 - $40.06, and $40.57 - $96.56 as reported by Micron Technology in 2006?",1.0,0.6309297535714575,1.0,0.5,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,0.6309297535714575,1,FINAL=MD,BM25,True,1.0,50,"This question requires finding specific numerical data within a range of exercise prices for Micron Technology in 2006, which involves precise matching of keywords and fine-grained multi-condition matching. Given the need for exact keyword matches and relevance discrimination within the text, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",TEXT-SINGLE,True,0.5,32,"Task: numerical computation
+Constraints: Micron Technology, 2006, specific exercise price ranges
+Matching Need: semantic recall
+Comparison: TD vs TR, TD excels in semantic similarity while TR can handle fine-grained multi-condition matching.
+FINAL=TD"
+31,val,"What is the minimum value of the expenses for Autodesk's fiscal year 2008, across cost of license and other revenue, marketing and sales, research and development, and general and administrative, which contribute to the stock-based compensation expense related to employee options and employee stock ",1.0,1.0,1.0,1.0,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,1.0,50,"This question requires understanding financial data across multiple categories and types of expenses, including those related to stock-based compensation. It involves precise numerical values and categorization, which is better suited for a BM (BM25) retrieval method due to its strength in handling exact keyword matches and precise string comparisons.
+
+FINAL=BM",MULTIMODAL_RERANK,True,1.0,59,"Task: numerical computation
+Constraints: exact entities (Autodesk, fiscal year 2008), specific financial categories (cost of license, other revenue, marketing and sales, research and development, general and administrative), relation to stock-based compensation expense
+Matching Need: token-level fine-grained match
+Comparison: TD (strong for semantic similarity and paraphrased questions) vs. MR (strong for queries requiring detailed analysis of figures and tables)
+FINAL=MR"
+32,val,"What is the median value of the Balance, beginning of period, Charged to costs and other, and Write-offs for Microsoft in 2014, which are the key components influencing the Balance, end of period?",0.5,0.6309297535714575,0.5,0.0,1.0,0.5,1.0,MULTIMODAL-SINGLE,True,0.6309297535714575,1,FINAL=MD,BM25,True,1.0,72,"This question requires finding specific financial values from a company's balance sheet, which involves numerical data and precise matching of terms. It also asks for a specific year and time period, indicating a need for exact keyword matching and relevance discrimination. Given these requirements, BM (BM25) is the most suitable retrieval method as it excels at handling exact keyword matches and can effectively deal with the precision needed for financial data.
+
+FINAL=BM",TEXT-SINGLE,True,0.0,55,"Task: fact lookup, numerical computation, constrained comparison, other, exact entities, years, numbers, relations, multi-condition needs
+Matching Need: semantic recall, lexical exact match, token-level fine-grained match
+Comparison: TD vs TR; TD can handle multi-condition matching and relevance discrimination within text, while TR uses token-level late-interaction reranking which might miss the exact numerical values needed.
+FINAL: TD"
+33,val,"In West Pharmaceutical Services' 2008 financial report, what is the maximum value among contract settlement and related costs gain, foreign exchange losses, loss on sales of equipment, and other items that contribute to the total other items for that year?",1.0,0.6309297535714575,0.6309297535714575,0.4306765580733931,0.6309297535714575,1.0,1.0,MULTIMODAL-SINGLE,True,0.6309297535714575,1,FINAL=MD,BM25,True,0.6309297535714575,57,"This question requires understanding specific financial data from a company's report, including values from different categories like contract settlements, gains, losses, and other items. It involves numerical comparisons and specific terminology, which aligns well with lexical keyword matching and semantic similarity. Given the need for both precise keywords and semantic understanding, BM (BM25) seems most appropriate.
+
+FINAL=BM",TEXT-SINGLE,True,0.4306765580733931,86,"Task: numerical computation
+Constraints: exact entities (West Pharmaceutical Services, 2008), specific financial terms (contract settlement, related costs gain, foreign exchange losses, loss on sales of equipment, other items)
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrased questions, which makes it suitable for understanding the specific financial terms and their relationships in the context of the question. TR, whil"
+34,val,What was BlackRock's non-operating income (expense) less net income (loss) attributable to non-controlling interests as adjusted in 2010?,1.0,1.0,1.0,1.0,1.0,1.0,1.0,BM25,True,1.0,1,FINAL=BM,BM25,True,1.0,46,"This question requires finding specific financial data from a year, which is best handled by a method that can perform precise keyword matching and handle numerical values accurately. Given the need for exact phrase matching and numerical precision, BM (BM25) is the most suitable choice.
+
+FINAL=BM",BM25,True,1.0,61,"Task: fact lookup
+Constraints: BlackRock, non-operating income, net income, non-controlling interests, 2010
+Matching Need: lexical exact match
+Comparison: For this query, BM (BM25) is likely the best choice because it excels at finding exact matches of terms like ""non-operating income,"" ""net income,"" and ""non-controlling interests."" TD (Text-Dense) might struggle with the specific financial terminology and exact phrase matching required. 
+
+FINAL: BM"
+35,val,"What is the sum of net income and total other comprehensive loss income for the year 2015, which equals comprehensive income?",0.4306765580733931,0.4306765580733931,0.0,0.0,0.0,0.4306765580733931,0.4306765580733931,TEXT-SINGLE,True,0.0,1,FINAL=TD,BM25,True,0.0,46,"This question requires finding specific financial data from a year, which involves numerical values and precise matching of keywords. It is best suited for a BM (BM25) retrieval method because it focuses on exact entity names and precise string matches needed for financial data extraction.
+
+FINAL=BM",MULTIMODAL-SINGLE,True,0.4306765580733931,48,"Task: numerical computation
+Constraints: exact entities (net income, total other comprehensive loss income), exact year (2015), relation (sum equals comprehensive income)
+Matching Need: token-level fine-grained match
+Comparison: TD (strong for semantic similarity and paraphrased questions) vs. MR (strong for queries requiring visual information like figures or tables)
+FINAL=MD"
+36,val,"What is the percentage change in the balance of total property and equipment for American Tower from 2004 to 2005, as reflected in the company's consolidated financial statements for the year ended December 31, 2005?",1.0,1.0,0.6309297535714575,1.0,0.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,0.0,46,"This question requires finding specific financial data from a company's consolidated financial statements, which involves precise numerical values and a clear temporal reference. Given the need for exact keyword matching and the presence of precise financial data, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.0,77,"Task: fact lookup
+Constraints: exact entities (American Tower), exact years (2004, 2005), relation (percentage change in balance of total property and equipment)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific numerical values and performing a percentage calculation, which is best suited for BM (BM25) due to its strength in exact keyword matching and numerical computations. TD (Text-Dense) would struggle with the precise numerical data needed and the need for "
+37,val,"What is the cumulative value of operating income and interest income, net for Monster Beverage in 2006, which contributes to the company's income before provision for income taxes that year?",0.0,0.3868528072345416,0.0,0.0,0.0,0.0,0.3868528072345416,MULTIMODAL-SINGLE,True,0.3868528072345416,1,FINAL=MD,BM25,True,0.0,42,"This question requires finding specific financial data from a company's annual report, specifically looking for a numerical value related to income statements. It involves precise keyword matching and understanding of financial terminology, which makes BM (BM25) the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.0,69,"Task: fact lookup
+Constraints: Monster Beverage, 2006, operating income, interest income, net, income before provision for income taxes
+Matching Need: lexical exact match
+Comparison: This query requires finding specific financial data, which is best handled by BM (BM25) due to its strong performance with exact entity names and precise string matches. TD (Text-Dense) might struggle with the exact financial terminology and the need for precise numerical values.
+FINAL: BM"
+38,val,"What is the difference in the S&P 500 Index value on January 3, 2009, and its initial value on December 30, 2006, as shown in the comparison of cumulative total return among Advance Auto Parts, Inc., S&P 500 Index, and S&P 500 Retail Index?",1.0,1.0,1.0,1.0,1.0,1.0,1.0,TEXT-SINGLE,True,1.0,1,FINAL=TD,BM25,True,1.0,54,"This question requires comparing financial data from specific dates and understanding the performance of multiple entities, including the S&P 500 Index. It involves numerical values and precise date comparisons, which are better handled by a method that can match exact keywords and perform precise string matching. Therefore, the best choice is BM (BM25).
+
+FINAL=BM",TEXT-SINGLE,True,1.0,83,"Task: constrained comparison
+Constraints: exact entities (Advance Auto Parts, Inc., S&P 500 Index, S&P 500 Retail Index), years (January 3, 2009, December 30, 2006), relation (difference in S&P 500 Index value)
+Matching Need: semantic recall
+Comparison: TD vs TR
+TD is strong for semantic similarity and paraphrased questions, making it suitable for understanding the context and comparing the S&P 500 Index values. TR, while providing text-dense recall, lacks the ability to perform the specific num"
+39,val,"What is the maximum value among Product, Service and other, that contributed to the total net revenue of Electronic Arts in 2019?",0.0,0.4306765580733931,1.0,0.6309297535714575,1.0,0.0,1.0,MULTIMODAL-SINGLE,True,0.4306765580733931,1,FINAL=MD,TEXT-SINGLE,True,0.6309297535714575,52,"This question requires understanding the context of a company's financial data, which involves numerical values and categorization. It also demands finding the maximum value among given categories, which is more suited to a dense retrieval method that can handle semantic similarity and paraphrasing well. Therefore, the best choice is TD (Text-Dense).
+
+FINAL=TD",TEXT-SINGLE,True,0.6309297535714575,28,"Task: numerical computation
+Constraints: exact entities (Product, Service, other), year (2019)
+Matching Need: semantic recall
+Comparison: TD (strong for semantic similarity) vs. BM (weak for semantic paraphrase)
+FINAL=TD"
+40,val,"What is the cumulative change in rental and other property revenues for Affordable Same Store and Other Affordable in the year ended December 31, 2012, compared to the previous year?",0.5,0.5,1.0,0.4306765580733931,0.4306765580733931,0.5,1.0,TEXT-SINGLE,True,0.4306765580733931,1,FINAL=TD,BM25,True,0.4306765580733931,49,"This question requires understanding financial data from specific companies and years, which involves precise keyword matching and potentially some semantic understanding of the company names and financial terms. Given the need for exact entity names and precise string matches, BM (BM25) would be the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.4306765580733931,77,"Task: fact lookup
+Constraints: Affordable Same Store, Affordable, Other Affordable, rental and other property revenues, December 31, 2012, previous year
+Matching Need: lexical exact match
+Comparison: This query requires finding specific financial data for exact entities and years. BM (BM25) is suitable for this task as it can handle exact entity names and precise string matches needed for the financial data. TD (Text-Dense) might struggle with the exactness required for the financial figures and"
+41,val,"What is the average value of working capital, property, plant & equipment, goodwill, other assets, debt, and other liabilities in thousands, which contributed to the $82,000 cash paid in 2006 for acquisitions by Universal Health Services?",1.0,1.0,1.0,0.6309297535714575,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,1.0,56,"This question requires understanding financial metrics and their relationships, which involves semantic similarity and paraphrasing. It also demands precision in matching specific financial terms and values, which is better suited for a method that can handle these nuances effectively. Given the need for both semantic similarity and precise term matching, BM (BM25) seems most appropriate.
+
+FINAL=BM",TEXT_RERANK,True,1.0,82,"Task: numerical computation
+Constraints: exact entities (Universal Health Services), years (2006), number ($82,000), relations (working capital, property, plant & equipment, goodwill, other assets, debt, other liabilities)
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrased questions, while TR excels in fine-grained multi-condition matching and relevance discrimination within text. For this query, TR is more capable as it"
+42,val,What was the percentage change in the gross unrecognized tax benefits for Apple Inc. between the beginning balance of 2010 and the beginning balance of 2011?,0.4306765580733931,0.0,1.0,0.0,0.0,0.4306765580733931,1.0,TEXT-SINGLE,True,0.0,1,FINAL=TD,BM25,True,0.0,56,"This question requires finding a specific financial metric from two different years, which involves numerical data and precise comparison. Given the need for exact numerical values and the context of financial statements, BM (BM25) is the most suitable method as it can handle lexical keyword matching effectively, ensuring the precision needed for such financial data.
+
+FINAL=BM",BM25,True,0.0,78,"Task: fact lookup
+Constraints: exact entities (Apple Inc., 2010, 2011), number (percentage change)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific numerical data about Apple Inc.'s gross unrecognized tax benefits for 2010 and 2011. The most suitable method here is BM (BM25) because it excels at handling exact entity names and precise string matches needed for such financial data. TD (Text-Dense) might struggle with the exact numerical values and the need for p"
+43,val,"What is the maximum value among the specific deferred income tax liabilities (inventory basis differences, property-related, goodwill and other intangibles, revenues on lease contracts, other) for Cardinal Health in 2009, given the provided breakdown of deferred income tax liabilities?",0.6309297535714575,1.0,0.6309297535714575,0.6309297535714575,0.6309297535714575,0.6309297535714575,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,BM25,True,0.6309297535714575,41,"This question requires finding a specific value from a detailed breakdown, which involves precise keyword matching and understanding of financial terms. Given the need for exact entity names and precise string matches, BM (BM25) is the most suitable retrieval method.
+
+FINAL=BM",BM25,True,0.6309297535714575,55,"Task: fact lookup
+Constraints: Cardinal Health, 2009, specific deferred income tax liabilities
+Matching Need: lexical exact match
+Comparison: For this query, BM (BM25) would likely perform better due to its strong performance with exact entity names and precise string matches. TD (Text-Dense) might struggle with the exact numerical values and specific terminology required.
+
+FINAL: BM"
+44,val,What is the median value of the increase/decrease in cash and cash equivalents and the beginning cash and cash equivalents for Moody's Corporation in the year 2008?,1.0,1.0,1.0,1.0,0.0,1.0,1.0,TEXT-SINGLE,True,1.0,1,FINAL=TD,TEXT-SINGLE,True,1.0,47,"This question requires finding specific financial data from a company's financial report, which involves numerical values and precise date-related information. It is best served by a method that can handle fine-grained multi-condition matching and relevance discrimination within text, making TD (Text-Dense) the most suitable retrieval method.
+
+FINAL=TD",TEXT-SINGLE,True,1.0,64,"Task: fact lookup, numerical computation, constrained comparison
+Constraints: Moody's Corporation, 2008
+Matching Need: semantic recall
+Comparison: TD vs TR
+TD is better suited for semantic recall and paraphrasing, which is crucial for understanding the specific financial terms and concepts required to compute the median value of cash changes and the beginning cash equivalents. TR might struggle with the precise numerical computation needed.
+
+FINAL: TD"
+45,val,"What is the average percentage of plan assets allocated to equity securities, fixed income securities, and other assets in the 2014 report of Universal Health Services?",0.6309297535714575,0.6309297535714575,0.0,1.0,0.0,0.6309297535714575,1.0,MULTIMODAL-SINGLE,True,0.6309297535714575,1,FINAL=MD,BM25,True,0.0,60,"This question requires finding specific percentages mentioned in a financial report, which involves numerical data rather than exact keywords or semantic similarity. Given the need for precise numerical data and the absence of visual elements, BM (BM25) would be the most suitable method as it excels at lexical keyword matching and can handle the precision required for these percentages.
+
+FINAL=BM",BM25,True,0.0,59,"Task: fact lookup
+Constraints: exact entities (Universal Health Services), year (2014)
+Matching Need: lexical exact match
+Comparison: 
+- BM (BM25) is suitable for exact entity names and precise string matches, which is crucial for the specific company and year mentioned.
+- TD (Text-Dense) might struggle with the exact numerical data required without additional context or visual aids.
+
+FINAL: BM"
+46,val,"What is the median value of income from continuing operations, income from and gain on sale of discontinued operations of our semiconductor products business, and income loss from discontinued operations of our semiconductor test solutions business for Agilent Technologies in the year 2006?",0.6309297535714575,0.5,0.6309297535714575,0.0,0.3868528072345416,0.6309297535714575,0.6309297535714575,MULTIMODAL-SINGLE,True,0.5,1,FINAL=MD,BM25,True,0.3868528072345416,48,"This question requires understanding financial data from specific sections of a company's annual report, including income statements and possibly notes. It demands precise numerical values and specific financial categories, which is best handled by a method that can match these exact terms and conditions, such as BM25.
+
+FINAL=BM",BM25,True,0.3868528072345416,79,"Task: fact lookup
+Constraints: exact entities (Agilent Technologies), exact year (2006), specific financial metrics (income from continuing operations, income from and gain on sale of discontinued operations, income loss from discontinued operations)
+Matching Need: lexical exact match
+Comparison: This query requires precise financial data which is best handled by BM (BM25) due to its strong performance with exact entity names and precise string matches. TD (Text-Dense) might struggle with the ex"
+47,val,"What is the average value of interest and other expense income net and gain loss on investments and put option net for Monster Beverage in 2013, which contributes to the total other expense income for that year?",0.4306765580733931,0.3868528072345416,0.4306765580733931,0.0,0.0,0.4306765580733931,0.4306765580733931,MULTIMODAL-SINGLE,True,0.3868528072345416,1,FINAL=MD,BM25,True,0.0,65,"This question requires finding specific financial data from a company's annual report, which likely includes detailed tables or sections. Given the need for precise numerical values and the context of a financial statement, BM (BM25) would be the most suitable method as it can handle the lexical matching required for the exact term ""average value"" and ""other expense income net"" in the financial report.
+
+FINAL=BM",TEXT-SINGLE,True,0.0,85,"Task: fact lookup
+Constraints: Monster Beverage, 2013, average value of interest and other expense income net, gain loss on investments and put option net, total other expense income
+Matching Need: token-level fine-grained match
+Comparison: TD vs TR
+TD is better suited for semantic similarity and paraphrased questions, making it more capable for understanding the specific financial metrics and their relation to the total other expense income. TR, while strong for fine-grained multi-condition mat"
+48,val,"What is the cumulative value of long-lived assets in North America and International for Electronic Arts as of March 31, 2017?",1.0,1.0,1.0,1.0,1.0,1.0,1.0,MULTIMODAL-SINGLE,True,1.0,1,FINAL=MD,MULTIMODAL-SINGLE,True,1.0,59,"This question requires finding specific financial data from a company's annual report, which likely includes detailed tables or figures. Given the need for precise numerical data and the presence of potentially relevant visual elements like tables or charts, a multimodal dense retrieval method (MD) would be most suitable as it can handle both textual and visual information effectively.
+
+FINAL=MD",BM25,True,1.0,59,"Task: fact lookup
+Constraints: Electronic Arts, long-lived assets, North America, International, March 31, 2017
+Matching Need: lexical exact match
+Comparison: This query requires finding specific financial data, which is best handled by BM (BM25) due to its strong performance with exact entity names and precise string matches. TD (Text-Dense) would struggle with the exact numerical value needed.
+FINAL: BM"
+49,val,"For the year 2010, what is the median value of federal and state current tax expense (benefit) that contributes to the total current tax expense?",1.0,0.3868528072345416,1.0,0.0,0.0,1.0,1.0,TEXT-SINGLE,True,0.0,1,FINAL=TD,BM25,True,0.0,68,"This question requires understanding financial data related to tax expenses, which involves numerical values and specific terminology. Given its focus on precise financial metrics and the need to identify a specific statistic from a dataset, BM (BM25) would be the most suitable method as it excels at handling exact keyword matches and precise string matches, which are crucial for identifying the correct financial metric and its value.
+
+FINAL=BM",BM25,True,0.0,86,"Task: fact lookup
+Constraints: exact entities (year 2010), number (median value), relation (federal and state current tax expense)
+Matching Need: lexical exact match
+Comparison: This query requires finding specific numerical data related to a particular year. BM (BM25) is likely the best choice here because it can handle exact entity names and precise string matches, which are crucial for identifying the correct year and the specific tax expense values needed. TD (Text-Dense) might struggle with"

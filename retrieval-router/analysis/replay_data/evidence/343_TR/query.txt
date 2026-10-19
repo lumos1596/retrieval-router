@@ -1,0 +1,5 @@
+qid=343 dataset=finqa arm=TR group=D
+replay dense nDCG@5=0.43067655807339306 (off 0.4306765580733931)
+replay rerank nDCG@5=1.0 (off 1.0)
+
+In the 2007 financial reports of The Interpublic Group of Companies, what percentage of the investment in auction rate securities was impaired, as disclosed in the notes to consolidated financial statements?

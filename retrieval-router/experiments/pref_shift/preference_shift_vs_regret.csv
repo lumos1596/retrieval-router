@@ -1,0 +1,5 @@
+pref_group,n,avg_regret,median_regret,catastrophic_rate,pred_arm_distribution,datasets
+ood,1565,0.288883167979625,0.0,0.18849840255591055,"{'MD': 0.726, 'MR': 0.182, 'TR': 0.054, 'BM': 0.029, 'TD': 0.009}","{'wiki-ss': 1191, 'tatdqa': 259, 'arxivqa': 115}"
+stable,1963,0.2094593099389412,0.0,0.10952623535404993,"{'MR': 0.634, 'MD': 0.244, 'TR': 0.067, 'BM': 0.039, 'TD': 0.015}","{'tatdqa': 1851, 'arxivqa': 112}"
+conflict,0,,,,,
+uncertain,1583,0.2567409623419376,0.0,0.1610865445356917,"{'MR': 0.553, 'MD': 0.34, 'BM': 0.05, 'TR': 0.047, 'TD': 0.01}","{'arxivqa': 676, 'tatdqa': 602, 'wiki-ss': 305}"

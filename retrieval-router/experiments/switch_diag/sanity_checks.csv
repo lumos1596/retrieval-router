@@ -1,0 +1,12 @@
+check,pass,detail
+col_order_train,True,"5/5 arm cols present, order correct"
+col_order_val,True,"5/5 arm cols present, order correct"
+col_order_source_test,True,"5/5 arm cols present, order correct"
+col_order_tatdqa,True,"5/5 arm cols present, order correct"
+col_order_wiki-ss,True,"5/5 arm cols present, order correct"
+col_order_arxivqa,True,"5/5 arm cols present, order correct"
+B0_match_source_test,True,"nDCG new=0.8627 old=0.8619 diff=0.0008, pred_agree=0.991"
+B0_match_tatdqa,True,"nDCG new=0.6190 old=0.6214 diff=-0.0025, pred_agree=0.989"
+B0_match_wiki-ss,True,"nDCG new=0.6636 old=0.6658 diff=-0.0022, pred_agree=0.992"
+B0_match_arxivqa,True,"nDCG new=0.5553 old=0.5592 diff=-0.0039, pred_agree=0.992"
+fixed_mr_100pct,True,FixedMR always selects MR by definition

@@ -1,0 +1,5 @@
+qid=4217 dataset=tatdqa arm=MR group=C
+replay dense nDCG@5=0.6309297535714575 (off 0.6309297535714575)
+replay rerank nDCG@5=1.0 (off 1.0)
+
+What was the amount of Restricted cash within other current assets in 2019?

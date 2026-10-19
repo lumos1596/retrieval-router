@@ -1,0 +1,5 @@
+qid=697 dataset=finqa arm=MR group=C
+replay dense nDCG@5=0.6309297535714575 (off 0.6309297535714575)
+replay rerank nDCG@5=1.0 (off 1.0)
+
+What is the percent change in relative percentages of operating companies income (loss) attributable to smokeless products from 2015 to 2016 for Altria Group, Inc.?
